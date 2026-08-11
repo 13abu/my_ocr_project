@@ -1,0 +1,12 @@
+MARGINALIA:
+top center: - 2 -
+top right: 123
+
+TEXT:
+Mazro'o. The woman is now returning to you with your
+messenger, Abdul Rahim bin Hamad, and it is requested that
+you may kindly make the necessary arrangements for the
+recovery of Anbar in whatever manner you may deem fit. The
+woman is one of your subjects and I leave her case to you.
+Usual Ending.
+-------

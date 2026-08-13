@@ -1,7 +1,7 @@
 import glob
 
 # Set the name of your output file
-output_filename = "combined_output.txt"
+output_filename = "../combined_output.txt"
 
 # Find all text files in the current folder
 txt_files = glob.glob("*.txt")

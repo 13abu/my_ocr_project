@@ -272,3 +272,91 @@ if __name__ == "__main__":
     # Example KWIC usage — uncomment and edit to search a specific term:
     # for name, snippet in kwic(texts, "regret"):
     #     print(f"[{name}] ...{snippet}...")
+
+    print("================KWIC TIME================")
+    print("~~~~~~~~~~TERM: REGRET~~~~~~~~~~")
+    for name, snippet in kwic(texts, "regret"):
+        print(f"[{name}] ...{snippet}...")
+
+    print("~~~~~~~~~~TERM: SLAVE~~~~~~~~~~")
+    for name, snippet in kwic(texts, "slave"):
+        print(f"[{name}] ...{snippet}...")
+
+    print("~~~~~~~~~~TERM: PROPERTY~~~~~~~~~~")
+    for name, snippet in kwic(texts, "property"):
+        print(f"[{name}] ...{snippet}...")
+
+    print("~~~~~~~~~~TERM: WAGES~~~~~~~~~~")
+    for name, snippet in kwic(texts, "wages"):
+        print(f"[{name}] ...{snippet}...")
+
+    print("~~~~~~~~~~TERM: DEATH~~~~~~~~~~")
+    for name, snippet in kwic(texts, "death"):
+        print(f"[{name}] ...{snippet}...")
+
+    print("~~~~~~~~~~TERM: STRUCK~~~~~~~~~~")
+    for name, snippet in kwic(texts, "struck"):
+        print(f"[{name}] ...{snippet}...")
+
+    print("~~~~~~~~~~TERM: BEG~~~~~~~~~~")
+    for name, snippet in kwic(texts, "beg"):
+        print(f"[{name}] ...{snippet}...")
+
+    print("~~~~~~~~~~TERM: SOLD~~~~~~~~~~")
+    for name, snippet in kwic(texts, "sold"):
+        print(f"[{name}] ...{snippet}...")
+
+    print("~~~~~~~~~~TERM: BORN~~~~~~~~~~")
+    for name, snippet in kwic(texts, "born"):
+        print(f"[{name}] ...{snippet}...")
+
+import csv
+
+
+def export_lexicon_scores(scores: dict[str, dict[str, int]], output_path: str = "lexicon_scores.csv") -> None:
+    """Export per-document lexicon scores to a CSV file."""
+    with open(output_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        # Header
+        categories = list(LEXICON.keys())
+        writer.writerow(["filename"] + categories + ["dominant_category", "total_hits"])
+
+        for filename, doc_scores in scores.items():
+            total = sum(doc_scores.values())
+            if total == 0:
+                dominant = "none"
+            else:
+                dominant = max(doc_scores, key=doc_scores.get)
+            row = [filename] + [doc_scores.get(cat, 0) for cat in categories] + [dominant, total]
+            writer.writerow(row)
+
+    print(f"Exported lexicon scores to {output_path}")
+
+
+def export_kwic_results(texts: dict[str, str], terms: list[str], window: int = 8,
+                        output_path: str = "kwic_results.csv") -> None:
+    """Export KWIC results for a list of terms to a CSV file."""
+    with open(output_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["term", "filename", "snippet"])
+
+        for term in terms:
+            results = kwic(texts, term, window)
+            for filename, snippet in results:
+                writer.writerow([term, filename, snippet])
+
+    print(f"Exported KWIC results for {len(terms)} terms to {output_path}")
+
+
+# Inside your main block, add these lines after the print_report and KWIC loops:
+
+if __name__ == "__main__":
+    # ... (existing code: load texts, print report, KWIC loops) ...
+
+    # EXPORT TO CSV
+    scores = score_all_documents(texts)
+    export_lexicon_scores(scores)
+
+    # KWIC export for the terms you've been searching
+    target_terms = ["regret", "slave", "property", "wages", "death", "beg", "sold", "born"]
+    export_kwic_results(texts, target_terms)

@@ -10,15 +10,7 @@ deference co-occurrence).
 This merges four previously separate scripts (lexicon_analysis.py,
 register_analysis.py, register_by_person.py, cooccurrence_analysis.py)
 into one, since they all read the same transcripts and differ only in
-what they count. deference_analysis.py is NOT included -- its
-response-status-only test (2-3 documents) is superseded by the
-corpus-wide co-occurrence test here (Part 4), per that script's own
-docstring.
-
-Run from your project folder, next to transcriptions/ and (for Part
-3's author/subject/recipient breakdowns) your metadata spreadsheet.tsv.
-Parts 1, 2, and 4 run fine without the TSV; Part 3 is skipped with a
-clear message if it's absent.
+what they count.
 
 Outputs (all written to the current folder):
   lexicon_scores.csv        -- per-document category scores (Part 1)

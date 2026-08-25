@@ -49,12 +49,13 @@ OUTPUT_DIR.mkdir(exist_ok=True)
 
 PNG_PATH = OUTPUT_DIR / "subject_network.png"
 
-# --- tier scheme (proposed, pending Zeerak's confirmation) ---
+# --- tier scheme (confirmed) ---
 TIER = {
     "Queen Victoria": "1. Sovereign",
     "Shaikh Isa": "2. Gulf ruler",
     "Shaikh Humeid bin Abdullah": "2. Gulf ruler",
     "Shaikh Jabir": "2. Gulf ruler",
+    "Shaikh Salim": "2. Gulf ruler",
     "John Gordon Lorimer": "2. Gulf ruler (reverse case)",
     "Father Gabriel Fleming": "3. European/British subject",
     "Mohammed bin Haji": "4a. BAPCO worker",
@@ -63,6 +64,9 @@ TIER = {
     "Salim bin Saeed": "4a. BAPCO worker",
     "Amer bin Saad": "4a. BAPCO worker",
     "Hassan bin Abdulla": "4a. BAPCO worker",
+    "Abdullah bin Nassir al Awadh": "4a. BAPCO worker",
+    "Abbas bin Habib": "4a. BAPCO worker",
+    "Ali bin Ahmed": "4a. BAPCO worker",
     "Alwiyah bint Shabib": "4b. Ordinary subject abroad",
     "Mohammed Saleh al Bahraini": "4b. Ordinary subject abroad",
     "Sadiga bint Haj Muhammad": "4b. Ordinary subject abroad",
@@ -81,15 +85,33 @@ TIER = {
     "Salim bin Ali": "5. Enslaved/manumitted",
     "Anbar": "5. Enslaved/manumitted",
     "Sa'id bin Zayed": "5. Enslaved/manumitted",
+    "Mubarak bin Yaruh": "5. Enslaved/manumitted",
+    "Farhan bin Salmin": "5. Enslaved/manumitted",
+    "Marzuq bin Sanqur": "5. Enslaved/manumitted",
+    "Khazur bint Abdullah": "5. Enslaved/manumitted",
+    "Almas bin Kamin": "5. Enslaved/manumitted",
+    "Thani bin Sa'ad": "5. Enslaved/manumitted",
+    "Salihah bint Abdur Rahman": "5. Enslaved/manumitted",
+    "Nafa'ah bint Sorur": "5. Enslaved/manumitted",  # FLAGGED: surfaced during sheet cleanup, not yet verified against the folio image
     "Dr. Steele": "comparator: intra-colonial dispute",
+    "Gray, Mackenzie & Co.": "comparator: intra-colonial dispute",
     "estate of a manumitted person": "liminal: 4/5 boundary",
 }
 
+# response_status principle: "response" requires the SUBJECT to be the one
+# writing back, in their own name -- not a third party (a Ruler, a master)
+# negotiating custody/ransom/status about them. Isa->Hamad and Fleming->Pelly
+# qualify because the subject's own successor/friend replies as himself.
+# Ghazul/Anbar/Nasir do NOT qualify even though a Ruler writes back in each
+# case: the Ruler is negotiating custody terms about the subject, and the
+# subject never enters the correspondence under their own name. This is a
+# deliberate distinction, not an oversight -- see write-up discussion.
 RESPONSE_STATUS = {
     "Queen Victoria": "endpoint",
     "Shaikh Isa": "response",
     "Shaikh Humeid bin Abdullah": "endpoint",
     "Shaikh Jabir": "endpoint",
+    "Shaikh Salim": "endpoint",
     "John Gordon Lorimer": "narrated",
     "Father Gabriel Fleming": "response",
     "Mohammed bin Haji": "endpoint",
@@ -98,6 +120,9 @@ RESPONSE_STATUS = {
     "Salim bin Saeed": "endpoint",
     "Amer bin Saad": "endpoint",
     "Hassan bin Abdulla": "endpoint",
+    "Abdullah bin Nassir al Awadh": "endpoint",
+    "Abbas bin Habib": "endpoint",
+    "Ali bin Ahmed": "endpoint",
     "Alwiyah bint Shabib": "endpoint",
     "Mohammed Saleh al Bahraini": "endpoint",
     "Sadiga bint Haj Muhammad": "endpoint",
@@ -116,7 +141,16 @@ RESPONSE_STATUS = {
     "Salim bin Ali": "endpoint",
     "Anbar": "endpoint",
     "Sa'id bin Zayed": "endpoint",
+    "Mubarak bin Yaruh": "endpoint",
+    "Farhan bin Salmin": "endpoint",
+    "Marzuq bin Sanqur": "endpoint",
+    "Khazur bint Abdullah": "endpoint",
+    "Almas bin Kamin": "endpoint",
+    "Thani bin Sa'ad": "endpoint",
+    "Salihah bint Abdur Rahman": "endpoint",
+    "Nafa'ah bint Sorur": "endpoint",
     "Dr. Steele": "response",
+    "Gray, Mackenzie & Co.": "response",  # same documented two-way exchange as Dr. Steele (145r complaint -> 146r-148r rebuttal)
     "estate of a manumitted person": "endpoint",
 }
 

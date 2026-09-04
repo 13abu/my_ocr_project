@@ -46,6 +46,10 @@ All four analysis scripts run from the project root — none expect to be moved 
 
 Required columns: `IOR Ref`, `Folio`, `Date`, `Author/Officer`, `Recipient`, `Subject`, `Doc Type`, `Language(s)`, `Description`, `QDL Link`. One row per subject — multi-subject folios are split into one row per person, not semicolon-joined, since the network scripts only read the first name before a semicolon.
 
+## `IRP_Close_Reading.md`
+
+The primary analytical work of the IRP — five close-reading cases, one per ontological tier: Queen Victoria (sovereign), Shaikh Isa/Hamad's condolence exchange (Gulf ruler), Father Gabriel Fleming (European/British subject), three BAPCO worker deaths (Hassan bin Abdulla, Amer bin Saad, Abdullah bin Nassir al Awadh), and Almas's manumission and naming (enslaved/manumitted). The three computational instruments support this document; they don't substitute for it.
+
 ## Model notes
 
 Transcription uses `gemini-3.5-flash-lite` (500 RPD free-tier quota vs. 20 RPD on earlier Flash models). Benchmarked against a ground-truth transcription of an 1812 IOR manuscript page at ~29% Word Error Rate / ~9% Character Error Rate — usable for triage and bulk first-pass transcription, not a substitute for direct verification against the source image before quoting in written work. Same discipline applies to every script's output here: read against the real document before citing.

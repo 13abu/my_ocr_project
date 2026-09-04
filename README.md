@@ -1,6 +1,6 @@
 # my_ocr_project
 
-Pipeline for the **India Office Records, R/15 series** (Qatar Digital Library) — built to support an MA IRP/thesis on the British Gulf Residency archive and how it produced unequal ontological status for different bodies, MA Digital Humanities and Societies, Hamad Bin Khalifa University.
+Pipeline for the **India Office Records, R/15 series** (Qatar Digital Library) — built to support an MA IRP on the British Gulf Residency archive and how it produced unequal ontological status for different bodies, MA Digital Humanities and Societies, Hamad Bin Khalifa University.
 
 ## Repo structure
 

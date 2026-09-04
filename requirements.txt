@@ -1,0 +1,20 @@
+# Third-party dependencies for my_ocr_project
+#
+# Install with: pip install -r requirements.txt
+# spaCy's language model is a separate download, not a pip package:
+#     python -m spacy download en_core_web_sm
+#
+# Everything else these scripts use (re, csv, json, math, difflib,
+# pathlib, collections, configparser) is Python's standard library --
+# nothing extra to install for those.
+
+# transcribe_bulk.py, extraction_pilot_gemini.py
+google-genai
+pillow
+
+# ner_analysis.py
+spacy
+
+# subject_network.py, officer_network.py
+networkx
+matplotlib

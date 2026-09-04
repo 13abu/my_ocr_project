@@ -1,0 +1,831 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="edge" attr.name="date" attr.type="string" />
+  <key id="d4" for="edge" attr.name="doc" attr.type="string" />
+  <key id="d3" for="edge" attr.name="kind" attr.type="string" />
+  <key id="d2" for="node" attr.name="status" attr.type="string" />
+  <key id="d1" for="node" attr.name="tier" attr.type="string" />
+  <key id="d0" for="node" attr.name="kind" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="Queen Victoria">
+      <data key="d0">subject</data>
+      <data key="d1">1. Sovereign</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="W.S. Davis">
+      <data key="d0">author</data>
+    </node>
+    <node id="Secretary to Govt of India, Home Dept, Calcutta">
+      <data key="d0">author</data>
+    </node>
+    <node id="Shaikh Humeid bin Abdullah">
+      <data key="d0">subject</data>
+      <data key="d1">2. Gulf ruler</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Cockburn (Offg. Political Resident)">
+      <data key="d0">author</data>
+    </node>
+    <node id="Shaikh Isa">
+      <data key="d0">subject</data>
+      <data key="d1">2. Gulf ruler</data>
+      <data key="d2">response</data>
+    </node>
+    <node id="Percy Gordon Loch (Political Agency, Bahrain)">
+      <data key="d0">author</data>
+    </node>
+    <node id="J. Croning for Secretary to the Political Resident (Camp, Bahrain)">
+      <data key="d0">author</data>
+    </node>
+    <node id="Percy Gordon Loch (Political Agent, Bahrain)">
+      <data key="d0">author</data>
+    </node>
+    <node id="Shaikh Hamad bin Isa Al Khalifah">
+      <data key="d0">author</data>
+    </node>
+    <node id="Shaikh Jabir">
+      <data key="d0">subject</data>
+      <data key="d1">2. Gulf ruler</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Percy Zachariah Cox, Basrah">
+      <data key="d0">author</data>
+    </node>
+    <node id="Almas of Suwahil">
+      <data key="d0">subject</data>
+      <data key="d1">5. Enslaved/manumitted</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Isa bin Abd al-Latif (Residency Agent, Sharjah)">
+      <data key="d0">author</data>
+    </node>
+    <node id="Alwiyah bint Shabib">
+      <data key="d0">subject</data>
+      <data key="d1">4b. Ordinary subject abroad</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="His Majesty's Consul at Baghdad">
+      <data key="d0">author</data>
+    </node>
+    <node id="Mohammed Saleh al Bahraini">
+      <data key="d0">subject</data>
+      <data key="d1">4b. Ordinary subject abroad</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Fakhri al Tabaqchali, Mutasarrif Basra Liwa">
+      <data key="d0">author</data>
+    </node>
+    <node id="Sadiga bint Haj Muhammad">
+      <data key="d0">subject</data>
+      <data key="d1">4b. Ordinary subject abroad</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Mutasarrifiya of Kerbala Liwa">
+      <data key="d0">author</data>
+    </node>
+    <node id="S'adiyah bint Sheber">
+      <data key="d0">subject</data>
+      <data key="d1">4b. Ordinary subject abroad</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="British Consulate-General, Basra">
+      <data key="d0">author</data>
+    </node>
+    <node id="Haj Mahdi">
+      <data key="d0">subject</data>
+      <data key="d1">4b. Ordinary subject abroad</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Maryam bint Mabrook">
+      <data key="d0">subject</data>
+      <data key="d1">5. Enslaved/manumitted</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)">
+      <data key="d0">author</data>
+    </node>
+    <node id="Hugh Weightman (Political Agent, Bahrain)">
+      <data key="d0">author</data>
+    </node>
+    <node id="Ghazul bint Suwahil">
+      <data key="d0">subject</data>
+      <data key="d1">5. Enslaved/manumitted</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Political Agent, Bahrain">
+      <data key="d0">author</data>
+    </node>
+    <node id="British Residency &amp; Consulate-General, Bushire">
+      <data key="d0">author</data>
+    </node>
+    <node id="H.D. Rushton [signed, per earlier link table] — internal case review">
+      <data key="d0">author</data>
+    </node>
+    <node id="Salim bin Bial">
+      <data key="d0">subject</data>
+      <data key="d1">5. Enslaved/manumitted</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Faraj bin Dadkhuda">
+      <data key="d0">subject</data>
+      <data key="d1">5. Enslaved/manumitted</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Alya bint Firoz">
+      <data key="d0">subject</data>
+      <data key="d1">5. Enslaved/manumitted</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Mubarak bin Bukhit">
+      <data key="d0">subject</data>
+      <data key="d1">5. Enslaved/manumitted</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Residency Agent, Sharjah">
+      <data key="d0">author</data>
+    </node>
+    <node id="Sa'id bin Zayed">
+      <data key="d0">subject</data>
+      <data key="d1">5. Enslaved/manumitted</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Almas bin Kamin">
+      <data key="d0">subject</data>
+      <data key="d1">5. Enslaved/manumitted</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Thani bin Sa'ad">
+      <data key="d0">subject</data>
+      <data key="d1">5. Enslaved/manumitted</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Mubarak bin Yaruh">
+      <data key="d0">subject</data>
+      <data key="d1">5. Enslaved/manumitted</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Farhan bin Salmin">
+      <data key="d0">subject</data>
+      <data key="d1">5. Enslaved/manumitted</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Marzuq bin Sanqur">
+      <data key="d0">subject</data>
+      <data key="d1">5. Enslaved/manumitted</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Khazur bint Abdullah">
+      <data key="d0">subject</data>
+      <data key="d1">5. Enslaved/manumitted</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Nafa'ah bint Sorur">
+      <data key="d0">subject</data>
+      <data key="d1">5. Enslaved/manumitted</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Firoz bin Anbar">
+      <data key="d0">subject</data>
+      <data key="d1">5. Enslaved/manumitted</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Zahra bint Ghuloom">
+      <data key="d0">subject</data>
+      <data key="d1">5. Enslaved/manumitted</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Salihah bint Abdur Rahman">
+      <data key="d0">subject</data>
+      <data key="d1">5. Enslaved/manumitted</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Nasir bin Bilal">
+      <data key="d0">subject</data>
+      <data key="d1">5. Enslaved/manumitted</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Salim bin Ali">
+      <data key="d0">subject</data>
+      <data key="d1">5. Enslaved/manumitted</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Anbar">
+      <data key="d0">subject</data>
+      <data key="d1">5. Enslaved/manumitted</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Robert Hamilton (Political Agent, Kuwait)">
+      <data key="d0">author</data>
+    </node>
+    <node id="Shaikh Salim">
+      <data key="d0">subject</data>
+      <data key="d1">2. Gulf ruler</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Dr. Steele">
+      <data key="d0">subject</data>
+      <data key="d1">comparator: intra-colonial dispute</data>
+      <data key="d2">response</data>
+    </node>
+    <node id="Gray, Mackenzie &amp; Co. Ltd. (signed W. Cuntee, Manager)">
+      <data key="d0">author</data>
+    </node>
+    <node id="Gray, Mackenzie &amp; Co.">
+      <data key="d0">subject</data>
+      <data key="d1">comparator: intra-colonial dispute</data>
+      <data key="d2">response</data>
+    </node>
+    <node id="M.L.A. Steele (Quarantine Medical Officer)">
+      <data key="d0">author</data>
+    </node>
+    <node id="Father Gabriel Fleming">
+      <data key="d0">subject</data>
+      <data key="d1">3. European/British subject</data>
+      <data key="d2">response</data>
+    </node>
+    <node id="C.J. Pelly (Political Agent, Bahrain)">
+      <data key="d0">author</data>
+    </node>
+    <node id="E.M. Luidens, American Mission, Bahrain">
+      <data key="d0">author</data>
+    </node>
+    <node id="Mohammed bin Haji">
+      <data key="d0">subject</data>
+      <data key="d1">4a. BAPCO worker</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="W.P. Anderson, Chief Local Representative, BAPCO">
+      <data key="d0">author</data>
+    </node>
+    <node id="Abdullah bin Nassir al Awadh">
+      <data key="d0">subject</data>
+      <data key="d1">4a. BAPCO worker</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Nassir bin Awadh">
+      <data key="d0">author</data>
+    </node>
+    <node id="Abbas bin Habib">
+      <data key="d0">subject</data>
+      <data key="d1">4a. BAPCO worker</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="R.M. Brown, Chief Local Representative, BAPCO">
+      <data key="d0">author</data>
+    </node>
+    <node id="A. Rahim Ali Baz">
+      <data key="d0">subject</data>
+      <data key="d1">4a. BAPCO worker</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="P.W. Harrison, M.D. (American Mission Hospital)">
+      <data key="d0">author</data>
+    </node>
+    <node id="Ali bin Ahmed">
+      <data key="d0">subject</data>
+      <data key="d1">4a. BAPCO worker</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Salim bin Saeed">
+      <data key="d0">subject</data>
+      <data key="d1">4a. BAPCO worker</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Superintendent, State Police, Bahrain (report) — forwarded by the Adviser to the Government">
+      <data key="d0">author</data>
+    </node>
+    <node id="Amer bin Saad">
+      <data key="d0">subject</data>
+      <data key="d1">4a. BAPCO worker</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="Hassan bin Abdulla">
+      <data key="d0">subject</data>
+      <data key="d1">4a. BAPCO worker</data>
+      <data key="d2">endpoint</data>
+    </node>
+    <node id="John Gordon Lorimer">
+      <data key="d0">subject</data>
+      <data key="d1">2. Gulf ruler (reverse case)</data>
+      <data key="d2">narrated</data>
+    </node>
+    <node id="Major Arthur Prescott Trevor (Political Agent, Bahrain)">
+      <data key="d0">author</data>
+    </node>
+    <edge source="W.S. Davis" target="Queen Victoria" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">116r</data>
+      <data key="d5">26 January 1901</data>
+    </edge>
+    <edge source="W.S. Davis" target="Queen Victoria" id="1">
+      <data key="d3">concerns</data>
+      <data key="d4">116v</data>
+      <data key="d5">26 January 1901</data>
+    </edge>
+    <edge source="W.S. Davis" target="Queen Victoria" id="2">
+      <data key="d3">concerns</data>
+      <data key="d4">46r</data>
+      <data key="d5">March 1901</data>
+    </edge>
+    <edge source="Secretary to Govt of India, Home Dept, Calcutta" target="Queen Victoria" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">118r</data>
+      <data key="d5">1 Feb 1901</data>
+    </edge>
+    <edge source="Cockburn (Offg. Political Resident)" target="Shaikh Humeid bin Abdullah" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">47r</data>
+      <data key="d5">27 Aug 1900</data>
+    </edge>
+    <edge source="Cockburn (Offg. Political Resident)" target="Shaikh Humeid bin Abdullah" id="1">
+      <data key="d3">concerns</data>
+      <data key="d4">47v</data>
+      <data key="d5">27 Aug 1900</data>
+    </edge>
+    <edge source="Percy Gordon Loch (Political Agency, Bahrain)" target="Shaikh Isa" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">4r</data>
+      <data key="d5">9 Dec 1932</data>
+    </edge>
+    <edge source="J. Croning for Secretary to the Political Resident (Camp, Bahrain)" target="Shaikh Isa" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">11r</data>
+      <data key="d5">10 Dec 1932</data>
+    </edge>
+    <edge source="Percy Gordon Loch (Political Agent, Bahrain)" target="Shaikh Isa" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">5r</data>
+      <data key="d5">9 Dec 1932</data>
+    </edge>
+    <edge source="Shaikh Hamad bin Isa Al Khalifah" target="Shaikh Isa" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">10r</data>
+      <data key="d5">10 Dec 1932</data>
+    </edge>
+    <edge source="Percy Zachariah Cox, Basrah" target="Shaikh Jabir" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">60r</data>
+      <data key="d5">16 Feb 1917</data>
+    </edge>
+    <edge source="Isa bin Abd al-Latif (Residency Agent, Sharjah)" target="Almas of Suwahil" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">7r</data>
+      <data key="d5">26 March 1925</data>
+    </edge>
+    <edge source="Isa bin Abd al-Latif (Residency Agent, Sharjah)" target="Almas of Suwahil" id="1">
+      <data key="d3">concerns</data>
+      <data key="d4">8r</data>
+      <data key="d5">26 March 1925</data>
+    </edge>
+    <edge source="Isa bin Abd al-Latif (Residency Agent, Sharjah)" target="Almas of Suwahil" id="2">
+      <data key="d3">concerns</data>
+      <data key="d4">10r</data>
+      <data key="d5">26 March 1925</data>
+    </edge>
+    <edge source="His Majesty's Consul at Baghdad" target="Alwiyah bint Shabib" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">4r</data>
+      <data key="d5">11 February 1948</data>
+    </edge>
+    <edge source="Fakhri al Tabaqchali, Mutasarrif Basra Liwa" target="Mohammed Saleh al Bahraini" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">11r</data>
+      <data key="d5">27 May 1948</data>
+    </edge>
+    <edge source="Mutasarrifiya of Kerbala Liwa" target="Sadiga bint Haj Muhammad" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">18r</data>
+      <data key="d5">5 July 1949</data>
+    </edge>
+    <edge source="British Consulate-General, Basra" target="S'adiyah bint Sheber" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">54r</data>
+      <data key="d5">26 June 1950</data>
+    </edge>
+    <edge source="British Consulate-General, Basra" target="Haj Mahdi" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">61r</data>
+      <data key="d5">17 October 1950</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Maryam bint Mabrook" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">32r</data>
+      <data key="d5">10 June 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Maryam bint Mabrook" id="1">
+      <data key="d3">concerns</data>
+      <data key="d4">33r</data>
+      <data key="d5">10 June 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Maryam bint Mabrook" id="2">
+      <data key="d3">concerns</data>
+      <data key="d4">34r</data>
+      <data key="d5">10 June 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Ghazul bint Suwahil" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">38r</data>
+      <data key="d5">14 July 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Ghazul bint Suwahil" id="1">
+      <data key="d3">concerns</data>
+      <data key="d4">39r</data>
+      <data key="d5">14 July 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Ghazul bint Suwahil" id="2">
+      <data key="d3">concerns</data>
+      <data key="d4">40r</data>
+      <data key="d5">17 July 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Ghazul bint Suwahil" id="3">
+      <data key="d3">concerns</data>
+      <data key="d4">41r</data>
+      <data key="d5">19 July 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Ghazul bint Suwahil" id="4">
+      <data key="d3">concerns</data>
+      <data key="d4">42r</data>
+      <data key="d5">7 August 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Ghazul bint Suwahil" id="5">
+      <data key="d3">concerns</data>
+      <data key="d4">43r</data>
+      <data key="d5">7 August 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Ghazul bint Suwahil" id="6">
+      <data key="d3">concerns</data>
+      <data key="d4">44r</data>
+      <data key="d5">7 August 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Salim bin Bial" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">52v</data>
+      <data key="d5">27 August 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Faraj bin Dadkhuda" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">97v</data>
+      <data key="d5">13 Nov 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Alya bint Firoz" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">152v</data>
+      <data key="d5">22 March 1940</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Firoz bin Anbar" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">68v</data>
+      <data key="d5">2 October 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Zahra bint Ghuloom" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">68v</data>
+      <data key="d5">2 October 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Zahra bint Ghuloom" id="1">
+      <data key="d3">concerns</data>
+      <data key="d4">72v</data>
+      <data key="d5">26 April 1940</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Zahra bint Ghuloom" id="2">
+      <data key="d3">concerns</data>
+      <data key="d4">73v</data>
+      <data key="d5">26 April 1940</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Zahra bint Ghuloom" id="3">
+      <data key="d3">concerns</data>
+      <data key="d4">74v</data>
+      <data key="d5">13 May 1940</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Zahra bint Ghuloom" id="4">
+      <data key="d3">concerns</data>
+      <data key="d4">75v</data>
+      <data key="d5">9 May 1940</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Zahra bint Ghuloom" id="5">
+      <data key="d3">concerns</data>
+      <data key="d4">76v</data>
+      <data key="d5">2 Jun 1940</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Salihah bint Abdur Rahman" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">68v</data>
+      <data key="d5">2 October 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Nasir bin Bilal" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">74v</data>
+      <data key="d5">13 May 1940</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Nasir bin Bilal" id="1">
+      <data key="d3">concerns</data>
+      <data key="d4">75v</data>
+      <data key="d5">9 May 1940</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Nasir bin Bilal" id="2">
+      <data key="d3">concerns</data>
+      <data key="d4">76v</data>
+      <data key="d5">2 Jun 1940</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Nasir bin Bilal" id="3">
+      <data key="d3">concerns</data>
+      <data key="d4">77v</data>
+      <data key="d5">30 May 1940</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Nasir bin Bilal" id="4">
+      <data key="d3">concerns</data>
+      <data key="d4">79v</data>
+      <data key="d5">~June 1940</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Anbar" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">119v</data>
+      <data key="d5">15 July 1941</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Anbar" id="1">
+      <data key="d3">concerns</data>
+      <data key="d4">120v</data>
+      <data key="d5">20 August 1941</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Anbar" id="2">
+      <data key="d3">concerns</data>
+      <data key="d4">121v</data>
+      <data key="d5">20 August 1941</data>
+    </edge>
+    <edge source="Hugh Weightman (Political Agent, Bahrain)" target="Maryam bint Mabrook" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">35r</data>
+      <data key="d5">10 June 1939</data>
+    </edge>
+    <edge source="Political Agent, Bahrain" target="Ghazul bint Suwahil" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">37r</data>
+      <data key="d5">13 August 1939</data>
+    </edge>
+    <edge source="British Residency &amp; Consulate-General, Bushire" target="Ghazul bint Suwahil" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">45r</data>
+      <data key="d5">18 October 1939</data>
+    </edge>
+    <edge source="H.D. Rushton [signed, per earlier link table] — internal case review" target="Ghazul bint Suwahil" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">back-i</data>
+      <data key="d5">18 October 1939</data>
+    </edge>
+    <edge source="Residency Agent, Sharjah" target="Mubarak bin Bukhit" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">21r</data>
+      <data key="d5">20 July 1939</data>
+    </edge>
+    <edge source="Residency Agent, Sharjah" target="Sa'id bin Zayed" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">83v</data>
+      <data key="d5">26 October 1939</data>
+    </edge>
+    <edge source="Residency Agent, Sharjah" target="Sa'id bin Zayed" id="1">
+      <data key="d3">concerns</data>
+      <data key="d4">84v</data>
+      <data key="d5">26 October 1939</data>
+    </edge>
+    <edge source="Residency Agent, Sharjah" target="Almas bin Kamin" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">83v</data>
+      <data key="d5">26 October 1939</data>
+    </edge>
+    <edge source="Residency Agent, Sharjah" target="Almas bin Kamin" id="1">
+      <data key="d3">concerns</data>
+      <data key="d4">84v</data>
+      <data key="d5">26 October 1939</data>
+    </edge>
+    <edge source="Residency Agent, Sharjah" target="Thani bin Sa'ad" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">83v</data>
+      <data key="d5">26 October 1939</data>
+    </edge>
+    <edge source="Residency Agent, Sharjah" target="Mubarak bin Yaruh" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">11r</data>
+      <data key="d5">20 June 1939</data>
+    </edge>
+    <edge source="Residency Agent, Sharjah" target="Farhan bin Salmin" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">11r</data>
+      <data key="d5">20 June 1939</data>
+    </edge>
+    <edge source="Residency Agent, Sharjah" target="Marzuq bin Sanqur" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">11r</data>
+      <data key="d5">20 June 1939</data>
+    </edge>
+    <edge source="Residency Agent, Sharjah" target="Khazur bint Abdullah" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">11r</data>
+      <data key="d5">20 June 1939</data>
+    </edge>
+    <edge source="Residency Agent, Sharjah" target="Khazur bint Abdullah" id="1">
+      <data key="d3">concerns</data>
+      <data key="d4">12r</data>
+      <data key="d5">22 June 1939</data>
+    </edge>
+    <edge source="Residency Agent, Sharjah" target="Nafa'ah bint Sorur" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">12r</data>
+      <data key="d5">22 June 1939</data>
+    </edge>
+    <edge source="Residency Agent, Sharjah" target="Salim bin Ali" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">78v</data>
+      <data key="d5" />
+    </edge>
+    <edge source="Robert Hamilton (Political Agent, Kuwait)" target="Shaikh Jabir" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">8r</data>
+      <data key="d5">5 February 1917</data>
+    </edge>
+    <edge source="Robert Hamilton (Political Agent, Kuwait)" target="Shaikh Jabir" id="1">
+      <data key="d3">concerns</data>
+      <data key="d4">9r</data>
+      <data key="d5">5 February 1917</data>
+    </edge>
+    <edge source="Robert Hamilton (Political Agent, Kuwait)" target="Shaikh Jabir" id="2">
+      <data key="d3">concerns</data>
+      <data key="d4">31r</data>
+      <data key="d5">5 February 1917</data>
+    </edge>
+    <edge source="Robert Hamilton (Political Agent, Kuwait)" target="Shaikh Jabir" id="3">
+      <data key="d3">concerns</data>
+      <data key="d4">32r</data>
+      <data key="d5">5 Feb 1917</data>
+    </edge>
+    <edge source="Robert Hamilton (Political Agent, Kuwait)" target="Shaikh Jabir" id="4">
+      <data key="d3">concerns</data>
+      <data key="d4">38r</data>
+      <data key="d5">5 Feb 1917</data>
+    </edge>
+    <edge source="Robert Hamilton (Political Agent, Kuwait)" target="Shaikh Salim" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">8r</data>
+      <data key="d5">5 February 1917</data>
+    </edge>
+    <edge source="Robert Hamilton (Political Agent, Kuwait)" target="Shaikh Salim" id="1">
+      <data key="d3">concerns</data>
+      <data key="d4">9r</data>
+      <data key="d5">5 February 1917</data>
+    </edge>
+    <edge source="Robert Hamilton (Political Agent, Kuwait)" target="Shaikh Salim" id="2">
+      <data key="d3">concerns</data>
+      <data key="d4">31r</data>
+      <data key="d5">5 Feb 1917</data>
+    </edge>
+    <edge source="Robert Hamilton (Political Agent, Kuwait)" target="Shaikh Salim" id="3">
+      <data key="d3">concerns</data>
+      <data key="d4">32r</data>
+      <data key="d5">5 Feb 1917</data>
+    </edge>
+    <edge source="Robert Hamilton (Political Agent, Kuwait)" target="Shaikh Salim" id="4">
+      <data key="d3">concerns</data>
+      <data key="d4">38r</data>
+      <data key="d5">5 Feb 1917</data>
+    </edge>
+    <edge source="Gray, Mackenzie &amp; Co. Ltd. (signed W. Cuntee, Manager)" target="Dr. Steele" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">145r</data>
+      <data key="d5">27 Apr 1947</data>
+    </edge>
+    <edge source="Gray, Mackenzie &amp; Co. Ltd. (signed W. Cuntee, Manager)" target="Gray, Mackenzie &amp; Co." id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">145r</data>
+      <data key="d5">27 Apr 1947</data>
+    </edge>
+    <edge source="M.L.A. Steele (Quarantine Medical Officer)" target="Dr. Steele" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">146r</data>
+      <data key="d5">27 Apr 1947</data>
+    </edge>
+    <edge source="M.L.A. Steele (Quarantine Medical Officer)" target="Dr. Steele" id="1">
+      <data key="d3">concerns</data>
+      <data key="d4">147r</data>
+      <data key="d5">27 April 1947</data>
+    </edge>
+    <edge source="M.L.A. Steele (Quarantine Medical Officer)" target="Dr. Steele" id="2">
+      <data key="d3">concerns</data>
+      <data key="d4">148r</data>
+      <data key="d5">27 April 1947</data>
+    </edge>
+    <edge source="M.L.A. Steele (Quarantine Medical Officer)" target="Gray, Mackenzie &amp; Co." id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">146r</data>
+      <data key="d5">27 Apr 1947</data>
+    </edge>
+    <edge source="M.L.A. Steele (Quarantine Medical Officer)" target="Gray, Mackenzie &amp; Co." id="1">
+      <data key="d3">concerns</data>
+      <data key="d4">147r</data>
+      <data key="d5">27 April 1947</data>
+    </edge>
+    <edge source="M.L.A. Steele (Quarantine Medical Officer)" target="Gray, Mackenzie &amp; Co." id="2">
+      <data key="d3">concerns</data>
+      <data key="d4">148r</data>
+      <data key="d5">27 April 1947</data>
+    </edge>
+    <edge source="C.J. Pelly (Political Agent, Bahrain)" target="Father Gabriel Fleming" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">8r</data>
+      <data key="d5">29 June 1947</data>
+    </edge>
+    <edge source="C.J. Pelly (Political Agent, Bahrain)" target="Father Gabriel Fleming" id="1">
+      <data key="d3">concerns</data>
+      <data key="d4">11r</data>
+      <data key="d5">30 Jun 1947</data>
+    </edge>
+    <edge source="C.J. Pelly (Political Agent, Bahrain)" target="Father Gabriel Fleming" id="2">
+      <data key="d3">concerns</data>
+      <data key="d4">23r</data>
+      <data key="d5">27 July 1947</data>
+    </edge>
+    <edge source="E.M. Luidens, American Mission, Bahrain" target="Father Gabriel Fleming" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">22r</data>
+      <data key="d5">17 Jul 1947</data>
+    </edge>
+    <edge source="W.P. Anderson, Chief Local Representative, BAPCO" target="Mohammed bin Haji" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">1r</data>
+      <data key="d5">4 September 1944</data>
+    </edge>
+    <edge source="W.P. Anderson, Chief Local Representative, BAPCO" target="A. Rahim Ali Baz" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">13r</data>
+      <data key="d5">11 January 1945</data>
+    </edge>
+    <edge source="W.P. Anderson, Chief Local Representative, BAPCO" target="A. Rahim Ali Baz" id="1">
+      <data key="d3">concerns</data>
+      <data key="d4">14r</data>
+      <data key="d5">11 Jan 1945</data>
+    </edge>
+    <edge source="W.P. Anderson, Chief Local Representative, BAPCO" target="A. Rahim Ali Baz" id="2">
+      <data key="d3">concerns</data>
+      <data key="d4">15r</data>
+      <data key="d5">11 Jan 1945</data>
+    </edge>
+    <edge source="W.P. Anderson, Chief Local Representative, BAPCO" target="A. Rahim Ali Baz" id="3">
+      <data key="d3">concerns</data>
+      <data key="d4">17r</data>
+      <data key="d5">11 Jan 1945</data>
+    </edge>
+    <edge source="W.P. Anderson, Chief Local Representative, BAPCO" target="Ali bin Ahmed" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">19r</data>
+      <data key="d5">28 Jan 1945</data>
+    </edge>
+    <edge source="Nassir bin Awadh" target="Abdullah bin Nassir al Awadh" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">27r</data>
+      <data key="d5">4 February 1946</data>
+    </edge>
+    <edge source="R.M. Brown, Chief Local Representative, BAPCO" target="Abbas bin Habib" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">38r</data>
+      <data key="d5">10 December 1946</data>
+    </edge>
+    <edge source="R.M. Brown, Chief Local Representative, BAPCO" target="Amer bin Saad" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">61r</data>
+      <data key="d5">1 Jun 1947</data>
+    </edge>
+    <edge source="R.M. Brown, Chief Local Representative, BAPCO" target="Amer bin Saad" id="1">
+      <data key="d3">concerns</data>
+      <data key="d4">65r</data>
+      <data key="d5">1 Jun 1947</data>
+    </edge>
+    <edge source="R.M. Brown, Chief Local Representative, BAPCO" target="Hassan bin Abdulla" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">57r</data>
+      <data key="d5">24 Mar 1947</data>
+    </edge>
+    <edge source="R.M. Brown, Chief Local Representative, BAPCO" target="Hassan bin Abdulla" id="1">
+      <data key="d3">concerns</data>
+      <data key="d4">58r</data>
+      <data key="d5">24 March 1947</data>
+    </edge>
+    <edge source="P.W. Harrison, M.D. (American Mission Hospital)" target="A. Rahim Ali Baz" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">16r</data>
+      <data key="d5">11 Jan 1945</data>
+    </edge>
+    <edge source="Superintendent, State Police, Bahrain (report) — forwarded by the Adviser to the Government" target="Salim bin Saeed" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">60r</data>
+      <data key="d5">20 May / 2 June 1947</data>
+    </edge>
+    <edge source="Major Arthur Prescott Trevor (Political Agent, Bahrain)" target="John Gordon Lorimer" id="0">
+      <data key="d3">concerns</data>
+      <data key="d4">23r</data>
+      <data key="d5">14 February 1914</data>
+    </edge>
+    <edge source="Major Arthur Prescott Trevor (Political Agent, Bahrain)" target="John Gordon Lorimer" id="1">
+      <data key="d3">concerns</data>
+      <data key="d4">24r</data>
+      <data key="d5">14 February 1914</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,509 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="date" attr.type="string" />
+  <key id="d0" for="edge" attr.name="doc" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="W.S. Davis" />
+    <node id="Abd al-Latif bin Abd al-Rahman" />
+    <node id="Secretary to Govt of India, Home Dept, Calcutta" />
+    <node id="Resident, Persian Gulf, Bushire" />
+    <node id="Cockburn (Offg. Political Resident)" />
+    <node id="Vere Hunt (Captain, First Assistant)" />
+    <node id="Vere Hunt (Captain, First Assistant) [name garbled in OCR]" />
+    <node id="F.B. Prideaux (Captain, First Assistant)" />
+    <node id="Percy Gordon Loch (Political Agency, Bahrain)" />
+    <node id="Bushire, Muhammarah, Kuwait, Muscat, Baghdad" />
+    <node id="J. Croning for Secretary to the Political Resident (Camp, Bahrain)" />
+    <node id="Government of India, New Delhi" />
+    <node id="Percy Gordon Loch (Political Agent, Bahrain)" />
+    <node id="Shaikh Hamad bin Isa Al Khalifah" />
+    <node id="Percy Zachariah Cox, Basrah" />
+    <node id="Arab Bureau, Cairo / Foreign Dept Delhi / Secretary of State London" />
+    <node id="Isa bin Abd al-Latif (Residency Agent, Sharjah)" />
+    <node id="Secretary to Political Resident / Charles Crosthwaite" />
+    <node id="Charles Dalrymple Belgrave (Adviser to the Government of Bahrain)" />
+    <node id="H.B.M's Political Agent, Bahrain" />
+    <node id="His Majesty's Consul at Baghdad" />
+    <node id="Political Agent, Bahrain" />
+    <node id="Fakhri al Tabaqchali, Mutasarrif Basra Liwa" />
+    <node id="H.B.M's Consulate-General, Basra" />
+    <node id="Mutasarrifiya of Kerbala Liwa" />
+    <node id="British Embassy, Consular Section, Baghdad" />
+    <node id="Mutasarrifiyah of Kerbala Liwa" />
+    <node id="British Consulate-General, Basra" />
+    <node id="Mutasarrifiyah, Basra Liwa" />
+    <node id="Mutasarrifiya, Basra Liwa" />
+    <node id="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" />
+    <node id="Hugh Weightman (Political Agent, Bahrain)" />
+    <node id="Secretary (likely to the Political Resident, Bushire)" />
+    <node id="Secretary to the Political Resident, Bushire" />
+    <node id="British Residency &amp; Consulate-General, Bushire" />
+    <node id="Reginald Alban (Political Agent, Bahrain) [inference, post-Oct 1940]" />
+    <node id="Reginald Alban (Political Agent, Bahrain)" />
+    <node id="Robert Hamilton (Political Agent, Kuwait)" />
+    <node id="Political Residency, Bushire / Political Officer, Basra" />
+    <node id="Percy Z. Cox (Political Resident/Chief Political Officer, Basrah)" />
+    <node id="Gray, Mackenzie &amp; Co. Ltd. (signed W. Cuntee, Manager)" />
+    <node id="Adviser to the Government, Bahrain [addressee not fully confirmed]" />
+    <node id="M.L.A. Steele (Quarantine Medical Officer)" />
+    <node id="C.J. Pelly (Political Agent, Bahrain)" />
+    <node id="Fleming, 13 Gartongrove, Leeds" />
+    <node id="E.M. Luidens, American Mission, Bahrain" />
+    <node id="W.P. Anderson, Chief Local Representative, BAPCO" />
+    <node id="Major Tom Hickinbotham (Political Agent, Bahrain)" />
+    <node id="Nassir bin Awadh" />
+    <node id="R.M. Brown, Chief Local Representative, BAPCO" />
+    <node id="Charles Dalrymple Belgrave (Adviser to Bahrain Government)" />
+    <node id="P.W. Harrison, M.D. (American Mission Hospital)" />
+    <node id="[enclosed medical certificate within the 13r-17r case]" />
+    <node id="Superintendent, State Police, Bahrain (report) — forwarded by the Adviser to the Government" />
+    <node id="Lieutenant-Colonel Arnold Crawshaw Galloway (Political Agent, Bahrain)" />
+    <node id="Charles Dalrymple Belgrave (Adviser to the Government, Bahrain)" />
+    <node id="Major Arthur Prescott Trevor (Political Agent, Bahrain)" />
+    <node id="Political Agency in Bahrain" />
+    <edge source="W.S. Davis" target="Abd al-Latif bin Abd al-Rahman" id="0">
+      <data key="d0">116r</data>
+      <data key="d1">26 January 1901</data>
+    </edge>
+    <edge source="W.S. Davis" target="Abd al-Latif bin Abd al-Rahman" id="1">
+      <data key="d0">116v</data>
+      <data key="d1">26 January 1901</data>
+    </edge>
+    <edge source="W.S. Davis" target="Abd al-Latif bin Abd al-Rahman" id="2">
+      <data key="d0">46r</data>
+      <data key="d1">March 1901</data>
+    </edge>
+    <edge source="W.S. Davis" target="Abd al-Latif bin Abd al-Rahman" id="3">
+      <data key="d0">48r</data>
+      <data key="d1">2 Mar 1901</data>
+    </edge>
+    <edge source="W.S. Davis" target="Abd al-Latif bin Abd al-Rahman" id="4">
+      <data key="d0">112r</data>
+      <data key="d1">23 Apr 1900</data>
+    </edge>
+    <edge source="W.S. Davis" target="Abd al-Latif bin Abd al-Rahman" id="5">
+      <data key="d0">113r</data>
+      <data key="d1">28 Apr 1900</data>
+    </edge>
+    <edge source="W.S. Davis" target="Abd al-Latif bin Abd al-Rahman" id="6">
+      <data key="d0">114r</data>
+      <data key="d1">28 Apr 1900</data>
+    </edge>
+    <edge source="W.S. Davis" target="Abd al-Latif bin Abd al-Rahman" id="7">
+      <data key="d0">211r</data>
+      <data key="d1">9 Sep 1901</data>
+    </edge>
+    <edge source="W.S. Davis" target="Abd al-Latif bin Abd al-Rahman" id="8">
+      <data key="d0">211v</data>
+      <data key="d1">9 Sep 1901</data>
+    </edge>
+    <edge source="W.S. Davis" target="Abd al-Latif bin Abd al-Rahman" id="9">
+      <data key="d0">144r</data>
+      <data key="d1">26 Nov 1900</data>
+    </edge>
+    <edge source="W.S. Davis" target="Abd al-Latif bin Abd al-Rahman" id="10">
+      <data key="d0">167r</data>
+      <data key="d1">8 Apr 1901</data>
+    </edge>
+    <edge source="Secretary to Govt of India, Home Dept, Calcutta" target="Resident, Persian Gulf, Bushire" id="0">
+      <data key="d0">118r</data>
+      <data key="d1">1 Feb 1901</data>
+    </edge>
+    <edge source="Cockburn (Offg. Political Resident)" target="Abd al-Latif bin Abd al-Rahman" id="0">
+      <data key="d0">47r</data>
+      <data key="d1">27 Aug 1900</data>
+    </edge>
+    <edge source="Cockburn (Offg. Political Resident)" target="Abd al-Latif bin Abd al-Rahman" id="1">
+      <data key="d0">47v</data>
+      <data key="d1">27 Aug 1900</data>
+    </edge>
+    <edge source="Vere Hunt (Captain, First Assistant)" target="Abd al-Latif bin Abd al-Rahman" id="0">
+      <data key="d0">240r</data>
+      <data key="d1">6 March 1903</data>
+    </edge>
+    <edge source="Vere Hunt (Captain, First Assistant)" target="Abd al-Latif bin Abd al-Rahman" id="1">
+      <data key="d0">241r</data>
+      <data key="d1">6 March 1903</data>
+    </edge>
+    <edge source="Vere Hunt (Captain, First Assistant)" target="Abd al-Latif bin Abd al-Rahman" id="2">
+      <data key="d0">274r</data>
+      <data key="d1">6 March 1903</data>
+    </edge>
+    <edge source="Vere Hunt (Captain, First Assistant)" target="Abd al-Latif bin Abd al-Rahman" id="3">
+      <data key="d0">275r</data>
+      <data key="d1">6 March 1903</data>
+    </edge>
+    <edge source="Vere Hunt (Captain, First Assistant)" target="Abd al-Latif bin Abd al-Rahman" id="4">
+      <data key="d0">252r</data>
+      <data key="d1">21 Feb 1903</data>
+    </edge>
+    <edge source="Vere Hunt (Captain, First Assistant)" target="Abd al-Latif bin Abd al-Rahman" id="5">
+      <data key="d0">276r</data>
+      <data key="d1">7 Sep 1903</data>
+    </edge>
+    <edge source="Vere Hunt (Captain, First Assistant) [name garbled in OCR]" target="Abd al-Latif bin Abd al-Rahman" id="0">
+      <data key="d0">252v</data>
+      <data key="d1">21 Feb 1903</data>
+    </edge>
+    <edge source="F.B. Prideaux (Captain, First Assistant)" target="Abd al-Latif bin Abd al-Rahman" id="0">
+      <data key="d0">31r</data>
+      <data key="d1">30 April 1899</data>
+    </edge>
+    <edge source="Percy Gordon Loch (Political Agency, Bahrain)" target="Bushire, Muhammarah, Kuwait, Muscat, Baghdad" id="0">
+      <data key="d0">4r</data>
+      <data key="d1">9 Dec 1932</data>
+    </edge>
+    <edge source="J. Croning for Secretary to the Political Resident (Camp, Bahrain)" target="Government of India, New Delhi" id="0">
+      <data key="d0">11r</data>
+      <data key="d1">10 Dec 1932</data>
+    </edge>
+    <edge source="Percy Gordon Loch (Political Agent, Bahrain)" target="Shaikh Hamad bin Isa Al Khalifah" id="0">
+      <data key="d0">5r</data>
+      <data key="d1">9 Dec 1932</data>
+    </edge>
+    <edge source="Shaikh Hamad bin Isa Al Khalifah" target="Percy Gordon Loch (Political Agent, Bahrain)" id="0">
+      <data key="d0">10r</data>
+      <data key="d1">10 Dec 1932</data>
+    </edge>
+    <edge source="Percy Zachariah Cox, Basrah" target="Arab Bureau, Cairo / Foreign Dept Delhi / Secretary of State London" id="0">
+      <data key="d0">60r</data>
+      <data key="d1">16 Feb 1917</data>
+    </edge>
+    <edge source="Isa bin Abd al-Latif (Residency Agent, Sharjah)" target="Secretary to Political Resident / Charles Crosthwaite" id="0">
+      <data key="d0">7r</data>
+      <data key="d1">26 March 1925</data>
+    </edge>
+    <edge source="Isa bin Abd al-Latif (Residency Agent, Sharjah)" target="Secretary to Political Resident / Charles Crosthwaite" id="1">
+      <data key="d0">8r</data>
+      <data key="d1">26 March 1925</data>
+    </edge>
+    <edge source="Isa bin Abd al-Latif (Residency Agent, Sharjah)" target="Secretary to Political Resident / Charles Crosthwaite" id="2">
+      <data key="d0">10r</data>
+      <data key="d1">26 March 1925</data>
+    </edge>
+    <edge source="Charles Dalrymple Belgrave (Adviser to the Government of Bahrain)" target="H.B.M's Political Agent, Bahrain" id="0">
+      <data key="d0">2r</data>
+      <data key="d1">6 March 1930</data>
+    </edge>
+    <edge source="Charles Dalrymple Belgrave (Adviser to the Government of Bahrain)" target="H.B.M's Political Agent, Bahrain" id="1">
+      <data key="d0">3r</data>
+      <data key="d1">6 March 1930</data>
+    </edge>
+    <edge source="Charles Dalrymple Belgrave (Adviser to the Government of Bahrain)" target="H.B.M's Political Agent, Bahrain" id="2">
+      <data key="d0">4r</data>
+      <data key="d1">6 March 1930</data>
+    </edge>
+    <edge source="Charles Dalrymple Belgrave (Adviser to the Government of Bahrain)" target="H.B.M's Political Agent, Bahrain" id="3">
+      <data key="d0">5r</data>
+      <data key="d1">6 March 1930</data>
+    </edge>
+    <edge source="His Majesty's Consul at Baghdad" target="Political Agent, Bahrain" id="0">
+      <data key="d0">4r</data>
+      <data key="d1">11 February 1948</data>
+    </edge>
+    <edge source="Political Agent, Bahrain" target="Secretary to the Political Resident, Bushire" id="0">
+      <data key="d0">37r</data>
+      <data key="d1">13 August 1939</data>
+    </edge>
+    <edge source="Fakhri al Tabaqchali, Mutasarrif Basra Liwa" target="H.B.M's Consulate-General, Basra" id="0">
+      <data key="d0">11r</data>
+      <data key="d1">27 May 1948</data>
+    </edge>
+    <edge source="Mutasarrifiya of Kerbala Liwa" target="British Embassy, Consular Section, Baghdad" id="0">
+      <data key="d0">18r</data>
+      <data key="d1">5 July 1949</data>
+    </edge>
+    <edge source="Mutasarrifiya of Kerbala Liwa" target="British Embassy, Consular Section, Baghdad" id="1">
+      <data key="d0">21r</data>
+      <data key="d1">31 July 1949</data>
+    </edge>
+    <edge source="Mutasarrifiyah of Kerbala Liwa" target="British Embassy, Consular Section, Baghdad" id="0">
+      <data key="d0">26r</data>
+      <data key="d1">27 November 1949</data>
+    </edge>
+    <edge source="British Consulate-General, Basra" target="Mutasarrifiyah, Basra Liwa" id="0">
+      <data key="d0">54r</data>
+      <data key="d1">26 June 1950</data>
+    </edge>
+    <edge source="British Consulate-General, Basra" target="Mutasarrifiya, Basra Liwa" id="0">
+      <data key="d0">61r</data>
+      <data key="d1">17 October 1950</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Hugh Weightman (Political Agent, Bahrain)" id="0">
+      <data key="d0">32r</data>
+      <data key="d1">10 June 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Hugh Weightman (Political Agent, Bahrain)" id="1">
+      <data key="d0">33r</data>
+      <data key="d1">10 June 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Hugh Weightman (Political Agent, Bahrain)" id="2">
+      <data key="d0">34r</data>
+      <data key="d1">10 June 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Hugh Weightman (Political Agent, Bahrain)" id="3">
+      <data key="d0">38r</data>
+      <data key="d1">14 July 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Hugh Weightman (Political Agent, Bahrain)" id="4">
+      <data key="d0">39r</data>
+      <data key="d1">14 July 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Hugh Weightman (Political Agent, Bahrain)" id="5">
+      <data key="d0">40r</data>
+      <data key="d1">17 July 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Hugh Weightman (Political Agent, Bahrain)" id="6">
+      <data key="d0">41r</data>
+      <data key="d1">19 July 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Hugh Weightman (Political Agent, Bahrain)" id="7">
+      <data key="d0">42r</data>
+      <data key="d1">7 August 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Hugh Weightman (Political Agent, Bahrain)" id="8">
+      <data key="d0">43r</data>
+      <data key="d1">7 August 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Hugh Weightman (Political Agent, Bahrain)" id="9">
+      <data key="d0">44r</data>
+      <data key="d1">7 August 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Hugh Weightman (Political Agent, Bahrain)" id="10">
+      <data key="d0">52v</data>
+      <data key="d1">27 August 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Hugh Weightman (Political Agent, Bahrain)" id="11">
+      <data key="d0">97v</data>
+      <data key="d1">13 Nov 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Hugh Weightman (Political Agent, Bahrain)" id="12">
+      <data key="d0">68v</data>
+      <data key="d1">2 October 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Hugh Weightman (Political Agent, Bahrain)" id="13">
+      <data key="d0">68v</data>
+      <data key="d1">2 October 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Hugh Weightman (Political Agent, Bahrain)" id="14">
+      <data key="d0">68v</data>
+      <data key="d1">2 October 1939</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Hugh Weightman (Political Agent, Bahrain)" id="15">
+      <data key="d0">72v</data>
+      <data key="d1">26 April 1940</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Hugh Weightman (Political Agent, Bahrain)" id="16">
+      <data key="d0">73v</data>
+      <data key="d1">26 April 1940</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Hugh Weightman (Political Agent, Bahrain)" id="17">
+      <data key="d0">74v</data>
+      <data key="d1">13 May 1940</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Hugh Weightman (Political Agent, Bahrain)" id="18">
+      <data key="d0">74v</data>
+      <data key="d1">13 May 1940</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Hugh Weightman (Political Agent, Bahrain)" id="19">
+      <data key="d0">75v</data>
+      <data key="d1">9 May 1940</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Hugh Weightman (Political Agent, Bahrain)" id="20">
+      <data key="d0">75v</data>
+      <data key="d1">9 May 1940</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Hugh Weightman (Political Agent, Bahrain)" id="21">
+      <data key="d0">76v</data>
+      <data key="d1">2 Jun 1940</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Hugh Weightman (Political Agent, Bahrain)" id="22">
+      <data key="d0">76v</data>
+      <data key="d1">2 Jun 1940</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Hugh Weightman (Political Agent, Bahrain)" id="23">
+      <data key="d0">77v</data>
+      <data key="d1">30 May 1940</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Hugh Weightman (Political Agent, Bahrain)" id="24">
+      <data key="d0">79v</data>
+      <data key="d1">~June 1940</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Reginald Alban (Political Agent, Bahrain) [inference, post-Oct 1940]" id="0">
+      <data key="d0">152v</data>
+      <data key="d1">22 March 1940</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Reginald Alban (Political Agent, Bahrain)" id="0">
+      <data key="d0">119v</data>
+      <data key="d1">15 July 1941</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Reginald Alban (Political Agent, Bahrain)" id="1">
+      <data key="d0">120v</data>
+      <data key="d1">20 August 1941</data>
+    </edge>
+    <edge source="Abd al-Razzaq Razuqi (Residency Agent, Sharjah)" target="Reginald Alban (Political Agent, Bahrain)" id="2">
+      <data key="d0">121v</data>
+      <data key="d1">20 August 1941</data>
+    </edge>
+    <edge source="Hugh Weightman (Political Agent, Bahrain)" target="Secretary (likely to the Political Resident, Bushire)" id="0">
+      <data key="d0">35r</data>
+      <data key="d1">10 June 1939</data>
+    </edge>
+    <edge source="British Residency &amp; Consulate-General, Bushire" target="Political Agent, Bahrain" id="0">
+      <data key="d0">45r</data>
+      <data key="d1">18 October 1939</data>
+    </edge>
+    <edge source="Robert Hamilton (Political Agent, Kuwait)" target="Political Residency, Bushire / Political Officer, Basra" id="0">
+      <data key="d0">8r</data>
+      <data key="d1">5 February 1917</data>
+    </edge>
+    <edge source="Robert Hamilton (Political Agent, Kuwait)" target="Political Residency, Bushire / Political Officer, Basra" id="1">
+      <data key="d0">8r</data>
+      <data key="d1">5 February 1917</data>
+    </edge>
+    <edge source="Robert Hamilton (Political Agent, Kuwait)" target="Political Residency, Bushire / Political Officer, Basra" id="2">
+      <data key="d0">9r</data>
+      <data key="d1">5 February 1917</data>
+    </edge>
+    <edge source="Robert Hamilton (Political Agent, Kuwait)" target="Political Residency, Bushire / Political Officer, Basra" id="3">
+      <data key="d0">9r</data>
+      <data key="d1">5 February 1917</data>
+    </edge>
+    <edge source="Robert Hamilton (Political Agent, Kuwait)" target="Political Residency, Bushire / Political Officer, Basra" id="4">
+      <data key="d0">31r</data>
+      <data key="d1">5 February 1917</data>
+    </edge>
+    <edge source="Robert Hamilton (Political Agent, Kuwait)" target="Political Residency, Bushire / Political Officer, Basra" id="5">
+      <data key="d0">31r</data>
+      <data key="d1">5 Feb 1917</data>
+    </edge>
+    <edge source="Robert Hamilton (Political Agent, Kuwait)" target="Political Residency, Bushire / Political Officer, Basra" id="6">
+      <data key="d0">32r</data>
+      <data key="d1">5 Feb 1917</data>
+    </edge>
+    <edge source="Robert Hamilton (Political Agent, Kuwait)" target="Political Residency, Bushire / Political Officer, Basra" id="7">
+      <data key="d0">32r</data>
+      <data key="d1">5 Feb 1917</data>
+    </edge>
+    <edge source="Robert Hamilton (Political Agent, Kuwait)" target="Percy Z. Cox (Political Resident/Chief Political Officer, Basrah)" id="0">
+      <data key="d0">38r</data>
+      <data key="d1">5 Feb 1917</data>
+    </edge>
+    <edge source="Robert Hamilton (Political Agent, Kuwait)" target="Percy Z. Cox (Political Resident/Chief Political Officer, Basrah)" id="1">
+      <data key="d0">38r</data>
+      <data key="d1">5 Feb 1917</data>
+    </edge>
+    <edge source="Gray, Mackenzie &amp; Co. Ltd. (signed W. Cuntee, Manager)" target="Adviser to the Government, Bahrain [addressee not fully confirmed]" id="0">
+      <data key="d0">145r</data>
+      <data key="d1">27 Apr 1947</data>
+    </edge>
+    <edge source="Gray, Mackenzie &amp; Co. Ltd. (signed W. Cuntee, Manager)" target="Adviser to the Government, Bahrain [addressee not fully confirmed]" id="1">
+      <data key="d0">145r</data>
+      <data key="d1">27 Apr 1947</data>
+    </edge>
+    <edge source="M.L.A. Steele (Quarantine Medical Officer)" target="Adviser to the Government, Bahrain [addressee not fully confirmed]" id="0">
+      <data key="d0">146r</data>
+      <data key="d1">27 Apr 1947</data>
+    </edge>
+    <edge source="M.L.A. Steele (Quarantine Medical Officer)" target="Adviser to the Government, Bahrain [addressee not fully confirmed]" id="1">
+      <data key="d0">146r</data>
+      <data key="d1">27 Apr 1947</data>
+    </edge>
+    <edge source="M.L.A. Steele (Quarantine Medical Officer)" target="Adviser to the Government, Bahrain [addressee not fully confirmed]" id="2">
+      <data key="d0">147r</data>
+      <data key="d1">27 April 1947</data>
+    </edge>
+    <edge source="M.L.A. Steele (Quarantine Medical Officer)" target="Adviser to the Government, Bahrain [addressee not fully confirmed]" id="3">
+      <data key="d0">147r</data>
+      <data key="d1">27 April 1947</data>
+    </edge>
+    <edge source="M.L.A. Steele (Quarantine Medical Officer)" target="Adviser to the Government, Bahrain [addressee not fully confirmed]" id="4">
+      <data key="d0">148r</data>
+      <data key="d1">27 April 1947</data>
+    </edge>
+    <edge source="M.L.A. Steele (Quarantine Medical Officer)" target="Adviser to the Government, Bahrain [addressee not fully confirmed]" id="5">
+      <data key="d0">148r</data>
+      <data key="d1">27 April 1947</data>
+    </edge>
+    <edge source="C.J. Pelly (Political Agent, Bahrain)" target="Fleming, 13 Gartongrove, Leeds" id="0">
+      <data key="d0">8r</data>
+      <data key="d1">29 June 1947</data>
+    </edge>
+    <edge source="C.J. Pelly (Political Agent, Bahrain)" target="Fleming, 13 Gartongrove, Leeds" id="1">
+      <data key="d0">11r</data>
+      <data key="d1">30 Jun 1947</data>
+    </edge>
+    <edge source="C.J. Pelly (Political Agent, Bahrain)" target="E.M. Luidens, American Mission, Bahrain" id="0">
+      <data key="d0">23r</data>
+      <data key="d1">27 July 1947</data>
+    </edge>
+    <edge source="E.M. Luidens, American Mission, Bahrain" target="C.J. Pelly (Political Agent, Bahrain)" id="0">
+      <data key="d0">22r</data>
+      <data key="d1">17 Jul 1947</data>
+    </edge>
+    <edge source="W.P. Anderson, Chief Local Representative, BAPCO" target="Major Tom Hickinbotham (Political Agent, Bahrain)" id="0">
+      <data key="d0">1r</data>
+      <data key="d1">4 September 1944</data>
+    </edge>
+    <edge source="W.P. Anderson, Chief Local Representative, BAPCO" target="Major Tom Hickinbotham (Political Agent, Bahrain)" id="1">
+      <data key="d0">13r</data>
+      <data key="d1">11 January 1945</data>
+    </edge>
+    <edge source="W.P. Anderson, Chief Local Representative, BAPCO" target="Major Tom Hickinbotham (Political Agent, Bahrain)" id="2">
+      <data key="d0">14r</data>
+      <data key="d1">11 Jan 1945</data>
+    </edge>
+    <edge source="W.P. Anderson, Chief Local Representative, BAPCO" target="Major Tom Hickinbotham (Political Agent, Bahrain)" id="3">
+      <data key="d0">15r</data>
+      <data key="d1">11 Jan 1945</data>
+    </edge>
+    <edge source="W.P. Anderson, Chief Local Representative, BAPCO" target="Major Tom Hickinbotham (Political Agent, Bahrain)" id="4">
+      <data key="d0">17r</data>
+      <data key="d1">11 Jan 1945</data>
+    </edge>
+    <edge source="W.P. Anderson, Chief Local Representative, BAPCO" target="Major Tom Hickinbotham (Political Agent, Bahrain)" id="5">
+      <data key="d0">19r</data>
+      <data key="d1">28 Jan 1945</data>
+    </edge>
+    <edge source="Nassir bin Awadh" target="Major Tom Hickinbotham (Political Agent, Bahrain)" id="0">
+      <data key="d0">27r</data>
+      <data key="d1">4 February 1946</data>
+    </edge>
+    <edge source="R.M. Brown, Chief Local Representative, BAPCO" target="Charles Dalrymple Belgrave (Adviser to Bahrain Government)" id="0">
+      <data key="d0">38r</data>
+      <data key="d1">10 December 1946</data>
+    </edge>
+    <edge source="R.M. Brown, Chief Local Representative, BAPCO" target="Lieutenant-Colonel Arnold Crawshaw Galloway (Political Agent, Bahrain)" id="0">
+      <data key="d0">61r</data>
+      <data key="d1">1 Jun 1947</data>
+    </edge>
+    <edge source="R.M. Brown, Chief Local Representative, BAPCO" target="Lieutenant-Colonel Arnold Crawshaw Galloway (Political Agent, Bahrain)" id="1">
+      <data key="d0">65r</data>
+      <data key="d1">1 Jun 1947</data>
+    </edge>
+    <edge source="R.M. Brown, Chief Local Representative, BAPCO" target="Charles Dalrymple Belgrave (Adviser to the Government, Bahrain)" id="0">
+      <data key="d0">57r</data>
+      <data key="d1">24 Mar 1947</data>
+    </edge>
+    <edge source="R.M. Brown, Chief Local Representative, BAPCO" target="Charles Dalrymple Belgrave (Adviser to the Government, Bahrain)" id="1">
+      <data key="d0">58r</data>
+      <data key="d1">24 March 1947</data>
+    </edge>
+    <edge source="P.W. Harrison, M.D. (American Mission Hospital)" target="[enclosed medical certificate within the 13r-17r case]" id="0">
+      <data key="d0">16r</data>
+      <data key="d1">11 Jan 1945</data>
+    </edge>
+    <edge source="Superintendent, State Police, Bahrain (report) — forwarded by the Adviser to the Government" target="H.B.M's Political Agent, Bahrain" id="0">
+      <data key="d0">60r</data>
+      <data key="d1">20 May / 2 June 1947</data>
+    </edge>
+    <edge source="Major Arthur Prescott Trevor (Political Agent, Bahrain)" target="Political Agency in Bahrain" id="0">
+      <data key="d0">23r</data>
+      <data key="d1">14 February 1914</data>
+    </edge>
+    <edge source="Major Arthur Prescott Trevor (Political Agent, Bahrain)" target="Political Agency in Bahrain" id="1">
+      <data key="d0">24r</data>
+      <data key="d1">14 February 1914</data>
+    </edge>
+  </graph>
+</graphml>

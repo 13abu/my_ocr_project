@@ -1,0 +1,224 @@
+LLM-ASSISTED STRUCTURED EXTRACTION PILOT — FINDINGS
+IOR/R/15 IRP corpus, Aug 2026
+
+=====================================================================
+PURPOSE
+=====================================================================
+Tests whether an LLM can extract structured person/event/relationship
+data from transcribed IOR/R/15 folios, as a first step toward
+answering whether the manual case-tabulation method used for the IRP
+(Almas, Ghazul, Maryam bint Mabrook cases) could scale to a larger
+corpus for the thesis without simply reading everything by hand.
+
+Not a claim that this replaces close reading. The method is: build a
+small number of cases by hand (gold standard), use them to write and
+test an extraction prompt, then run that prompt "blind" on cases not
+yet manually tabulated, and check the output against what's actually
+in the folios. The point of the pilot is to measure the error rate
+honestly, not to produce a finished tool.
+
+=====================================================================
+METHOD
+=====================================================================
+Model: Gemini (google-genai SDK), same pipeline used for bulk
+transcription (transcribe_bulk.py), same config.py/API key.
+
+Corpus: 110 transcribed folios across 11 IOR/R/15 files (the existing
+IRP pilot corpus).
+
+Test cases (4, run as 4 separate API calls per iteration):
+  - Almas (IOR/R/15/1/208) — known/gold, manually tabulated already
+  - Ghazul bint Suwahil (IOR/R/15/1/212) — known/gold
+  - Zahra bint Ghuloom / Nasir bin Bilal (IOR/R/15/1/212) — holdout,
+    not previously tabulated by hand
+  - Anbar (IOR/R/15/1/212) — holdout, not previously tabulated by hand
+
+Method: few-shot structured extraction. The model is shown one fully
+worked example (the Maryam bint Mabrook case, hand-built) and asked
+to produce the same shape of output for each test case. This is NOT
+model training — no fine-tuning, no gradient updates. The gold cases
+function as a validation set (checking the model's output against
+known-correct answers), not training data.
+
+Script: extraction_pilot_gemini.py, in this folder.
+
+=====================================================================
+THREE ITERATIONS — WHAT CHANGED AND WHY
+=====================================================================
+
+ITERATION 1 — baseline extraction, inline flagging
+Schema: nested JSON per person (owner_chain, events as lists),
+with a "flags" field for the model to note anything ambiguous
+inline, during extraction.
+
+Result: person/event/relationship extraction itself was strong —
+multi-step ownership chains were assembled correctly and in order
+(e.g. Almas: Said -> Maftul -> Khalifah, three owners across three
+folios), and all monetary figures checked out against source text.
+No wholesale hallucination.
+
+But: of 4 known cross-folio discrepancies actually present in the
+input (a ransom-amount conflict in Ghazul's case, a manumission-
+certificate date conflict in Zahra's case, a name-inconsistency in
+Anbar's case, and a testimony conflict between Nasir bin Bilal's own
+account and his accused captor's account), the inline "flag if
+something seems off" instruction caught only 1 of 4. It also guessed
+several dates from relative context ("approx. mid-April 1940")
+despite an explicit instruction not to.
+
+Diagnosis: asking the model to flag ambiguity as a side effect of
+extraction, rather than as a dedicated task, produced weak results.
+Also: nested JSON in every cell made the CSV output nearly unusable
+for direct spreadsheet work.
+
+ITERATION 2 — flattened schema, mandatory fact-level cross-check
+Changes:
+  - owner_chain and events flattened into plain readable strings
+    (arrow-joined chains, semicolon-joined event lists) instead of
+    nested JSON, producing a usable CSV.
+  - Discrepancy-checking split into an explicit, mandatory second
+    step, separate from extraction: re-read every folio a second
+    time specifically comparing names/dates/amounts across folios
+    for the same case, even for facts already silently resolved in
+    step 1.
+
+Result: 3 of the 4 previously-missed discrepancies were caught
+explicitly this time (Ghazul's ransom figures, Zahra's certificate
+date, Anbar's master's-name inconsistency), each with source folios
+cited and a plausible resolution note.
+
+But: the one discrepancy iteration 1 HAD caught — the Salim bin Ali /
+Nasir bin Bilal testimony conflict — disappeared. The model adopted
+the Residency Agent's own investigative conclusion ("Salim conspired
+with Amnah") as settled fact in both people's records, rather than
+preserving the conflict between Salim's self-serving denial and
+Nasir's account of being kidnapped.
+
+Diagnosis: the mandatory cross-check step, as written, only compared
+discrete FACTS (a date, a name, an amount) across sources. It had no
+instruction to compare NARRATIVES — two people's own descriptions of
+the same event — which is a different kind of comparison. Testimony
+conflicts got quietly absorbed into whichever account an officer's
+investigation had already endorsed.
+
+ITERATION 3 — added a third, separate step for testimony comparison
+Changes:
+  - Added Step 3, explicitly separate from Step 2's fact-checking:
+    compare whether two people's own accounts of the same event
+    agree, even when no single named fact technically conflicts, and
+    explicitly instructed not to let an officer's later "resolution"
+    of a case erase a genuine conflict between the original accounts.
+  - New, synthetic (not corpus-derived) few-shot example specifically
+    illustrating a testimony conflict, to avoid the model just
+    pattern-matching to a memorized real answer.
+  - New third output file (testimony_conflicts.csv), kept separate
+    from the fact-level discrepancies.csv.
+
+Result: recovered the lost testimony conflict from iteration 1 (this
+time compared all three accounts — Amnah's, Nasir's, and Salim's —
+not just two). Also correctly reframed the Ghazul ransom-figure
+"discrepancy" from iteration 2 as something more interesting than a
+factual error: not two different numbers for the same fact, but two
+different framings of the same payment (the Ruler calls it
+reimbursement for a rescue; the petitioner calls it a ransom demand).
+Also surfaced one previously unnoticed conflict: the Ruler of Abu
+Dhabi's account of Nasir's acquisition ("out of mercy, to prevent him
+falling into bedouin hands") directly contradicts Nasir's own account
+("sold to Ibn Abbood, then purchased by Shaikh Hazz'a") — a
+humanitarian-rescue framing versus a commercial-transaction framing
+of the same event, not previously identified in manual close reading.
+
+But: two new problems appeared in this run that were not present in
+iteration 2, on the same folios:
+  - Zahra bint Ghuloom's owner chain silently dropped one link
+    (Amnah bint Said) that had been correctly present in iteration 2.
+  - An entry in discrepancies.csv appears to misread the actual
+    relationship stated in f.120v (conflating who was whose
+    step-daughter in the Anbar case) — this replaced what had been a
+    correct catch in iteration 2 (the master's-name inconsistency)
+    with an apparently incorrect claim. Needs direct verification
+    against the QDL folio image before use.
+
+=====================================================================
+THE HEADLINE METHODOLOGICAL FINDING
+=====================================================================
+Prompt structure measurably changes what kind of errors the pipeline
+makes — it does not uniformly improve or uniformly fail. Splitting
+"check facts" from "check narratives" into two separate mandatory
+steps fixed a real, specific blind spot (testimony-level conflict
+detection) that a single combined "flag anything ambiguous"
+instruction had missed.
+
+Separately: identical input, run twice, did not produce identical
+output. One correct finding from iteration 2 disappeared in iteration
+3, and a different correct finding was apparently replaced by an
+incorrect one. This is not a bug to be fixed by better prompting — it
+is a basic property of how these models generate text (temperature
+0.1 is not 0), and it means single-pass automated extraction should
+be treated as provisional, not authoritative, even after a prompt has
+been validated once. A usable pipeline would need either repeated
+runs with cross-run comparison, or a standing rule that automated
+output is a candidate to check by hand, not a finished record.
+
+=====================================================================
+WHAT WORKS RELIABLY ACROSS ALL THREE RUNS
+=====================================================================
+  - Multi-step ownership chains (2-5 owners), correctly sequenced
+    from information scattered across multiple folios.
+  - Monetary figures — no invented amounts found in any run.
+  - Person/role identification — no missed participants, no
+    obviously fabricated people, across 24 total person-records
+    produced (6 per case x 4 cases, each run).
+
+=====================================================================
+WHAT DOES NOT WORK RELIABLY
+=====================================================================
+  - Inline ambiguity-flagging during extraction (fixed by splitting
+    into dedicated steps, but the dedicated steps introduce their own
+    trade-offs — see below).
+  - Full determinism across repeated runs on identical input.
+  - Complex, multi-hop family relationships (the Anbar
+    step-daughter/wife confusion) — this is exactly the kind of
+    naming-grammar problem this project's own spaCy NER test already
+    established off-the-shelf tools fail on with this material; it
+    appears LLM extraction is not immune to it either, just better on
+    average.
+  - Full compliance with "do not guess a date from relative context"
+    — improved across iterations (from unqualified guesses to
+    "c."-qualified ones) but never fully eliminated.
+
+=====================================================================
+IMPLICATIONS FOR FUTURE WORK (THESIS-SCALE, NOT THE IRP)
+=====================================================================
+If this method were scaled to a larger corpus (the ~1000-folio
+scenario discussed for the thesis), based on this pilot:
+  1. The extraction step itself (people, roles, ownership chains) is
+     probably reliable enough to use as a first-pass triage tool —
+     something to generate candidate structured data for a human to
+     check, not something to trust unchecked.
+  2. Discrepancy/conflict detection needs to be built as separate,
+     explicit steps for facts versus narratives — a single
+     "flag anything odd" instruction is not sufficient.
+  3. Any real use of this method would need a validation sample
+     checked by hand from EACH run, not just the first one, given the
+     observed run-to-run inconsistency — a one-time validation does
+     not guarantee later runs on the same or new data will perform
+     the same way.
+  4. This does not replace close reading for cases that matter to the
+     argument. It could plausibly help identify WHICH folios/cases
+     are worth close-reading at scale (e.g. flagging candidate
+     testimony conflicts for a human to verify), functioning as a
+     retrieval/triage aid rather than a source of citable findings on
+     its own.
+
+=====================================================================
+FILES
+=====================================================================
+  - extraction_pilot_gemini.py — the script (iteration 3 / final
+    version used above)
+  - people.csv, discrepancies.csv, testimony_conflicts.csv — output
+    from the iteration 3 run, referenced above
+  - Two items flagged above (Zahra's dropped owner-chain link; the
+    Anbar step-daughter/wife claim) have NOT been verified against
+    the primary QDL folio images as of this writeup — check before
+    citing either.

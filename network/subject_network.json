@@ -1,0 +1,1211 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "kind": "subject",
+      "tier": "1. Sovereign",
+      "status": "endpoint",
+      "id": "Queen Victoria"
+    },
+    {
+      "kind": "author",
+      "id": "W.S. Davis"
+    },
+    {
+      "kind": "author",
+      "id": "Secretary to Govt of India, Home Dept, Calcutta"
+    },
+    {
+      "kind": "subject",
+      "tier": "2. Gulf ruler",
+      "status": "endpoint",
+      "id": "Shaikh Humeid bin Abdullah"
+    },
+    {
+      "kind": "author",
+      "id": "Cockburn (Offg. Political Resident)"
+    },
+    {
+      "kind": "subject",
+      "tier": "2. Gulf ruler",
+      "status": "response",
+      "id": "Shaikh Isa"
+    },
+    {
+      "kind": "author",
+      "id": "Percy Gordon Loch (Political Agency, Bahrain)"
+    },
+    {
+      "kind": "author",
+      "id": "J. Croning for Secretary to the Political Resident (Camp, Bahrain)"
+    },
+    {
+      "kind": "author",
+      "id": "Percy Gordon Loch (Political Agent, Bahrain)"
+    },
+    {
+      "kind": "author",
+      "id": "Shaikh Hamad bin Isa Al Khalifah"
+    },
+    {
+      "kind": "subject",
+      "tier": "2. Gulf ruler",
+      "status": "endpoint",
+      "id": "Shaikh Jabir"
+    },
+    {
+      "kind": "author",
+      "id": "Percy Zachariah Cox, Basrah"
+    },
+    {
+      "kind": "subject",
+      "tier": "5. Enslaved/manumitted",
+      "status": "endpoint",
+      "id": "Almas of Suwahil"
+    },
+    {
+      "kind": "author",
+      "id": "Isa bin Abd al-Latif (Residency Agent, Sharjah)"
+    },
+    {
+      "kind": "subject",
+      "tier": "4b. Ordinary subject abroad",
+      "status": "endpoint",
+      "id": "Alwiyah bint Shabib"
+    },
+    {
+      "kind": "author",
+      "id": "His Majesty's Consul at Baghdad"
+    },
+    {
+      "kind": "subject",
+      "tier": "4b. Ordinary subject abroad",
+      "status": "endpoint",
+      "id": "Mohammed Saleh al Bahraini"
+    },
+    {
+      "kind": "author",
+      "id": "Fakhri al Tabaqchali, Mutasarrif Basra Liwa"
+    },
+    {
+      "kind": "subject",
+      "tier": "4b. Ordinary subject abroad",
+      "status": "endpoint",
+      "id": "Sadiga bint Haj Muhammad"
+    },
+    {
+      "kind": "author",
+      "id": "Mutasarrifiya of Kerbala Liwa"
+    },
+    {
+      "kind": "subject",
+      "tier": "4b. Ordinary subject abroad",
+      "status": "endpoint",
+      "id": "S'adiyah bint Sheber"
+    },
+    {
+      "kind": "author",
+      "id": "British Consulate-General, Basra"
+    },
+    {
+      "kind": "subject",
+      "tier": "4b. Ordinary subject abroad",
+      "status": "endpoint",
+      "id": "Haj Mahdi"
+    },
+    {
+      "kind": "subject",
+      "tier": "5. Enslaved/manumitted",
+      "status": "endpoint",
+      "id": "Maryam bint Mabrook"
+    },
+    {
+      "kind": "author",
+      "id": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)"
+    },
+    {
+      "kind": "author",
+      "id": "Hugh Weightman (Political Agent, Bahrain)"
+    },
+    {
+      "kind": "subject",
+      "tier": "5. Enslaved/manumitted",
+      "status": "endpoint",
+      "id": "Ghazul bint Suwahil"
+    },
+    {
+      "kind": "author",
+      "id": "Political Agent, Bahrain"
+    },
+    {
+      "kind": "author",
+      "id": "British Residency & Consulate-General, Bushire"
+    },
+    {
+      "kind": "author",
+      "id": "H.D. Rushton [signed, per earlier link table] \u2014 internal case review"
+    },
+    {
+      "kind": "subject",
+      "tier": "5. Enslaved/manumitted",
+      "status": "endpoint",
+      "id": "Salim bin Bial"
+    },
+    {
+      "kind": "subject",
+      "tier": "5. Enslaved/manumitted",
+      "status": "endpoint",
+      "id": "Faraj bin Dadkhuda"
+    },
+    {
+      "kind": "subject",
+      "tier": "5. Enslaved/manumitted",
+      "status": "endpoint",
+      "id": "Alya bint Firoz"
+    },
+    {
+      "kind": "subject",
+      "tier": "5. Enslaved/manumitted",
+      "status": "endpoint",
+      "id": "Mubarak bin Bukhit"
+    },
+    {
+      "kind": "author",
+      "id": "Residency Agent, Sharjah"
+    },
+    {
+      "kind": "subject",
+      "tier": "5. Enslaved/manumitted",
+      "status": "endpoint",
+      "id": "Sa'id bin Zayed"
+    },
+    {
+      "kind": "subject",
+      "tier": "5. Enslaved/manumitted",
+      "status": "endpoint",
+      "id": "Almas bin Kamin"
+    },
+    {
+      "kind": "subject",
+      "tier": "5. Enslaved/manumitted",
+      "status": "endpoint",
+      "id": "Thani bin Sa'ad"
+    },
+    {
+      "kind": "subject",
+      "tier": "5. Enslaved/manumitted",
+      "status": "endpoint",
+      "id": "Mubarak bin Yaruh"
+    },
+    {
+      "kind": "subject",
+      "tier": "5. Enslaved/manumitted",
+      "status": "endpoint",
+      "id": "Farhan bin Salmin"
+    },
+    {
+      "kind": "subject",
+      "tier": "5. Enslaved/manumitted",
+      "status": "endpoint",
+      "id": "Marzuq bin Sanqur"
+    },
+    {
+      "kind": "subject",
+      "tier": "5. Enslaved/manumitted",
+      "status": "endpoint",
+      "id": "Khazur bint Abdullah"
+    },
+    {
+      "kind": "subject",
+      "tier": "5. Enslaved/manumitted",
+      "status": "endpoint",
+      "id": "Nafa'ah bint Sorur"
+    },
+    {
+      "kind": "subject",
+      "tier": "5. Enslaved/manumitted",
+      "status": "endpoint",
+      "id": "Firoz bin Anbar"
+    },
+    {
+      "kind": "subject",
+      "tier": "5. Enslaved/manumitted",
+      "status": "endpoint",
+      "id": "Zahra bint Ghuloom"
+    },
+    {
+      "kind": "subject",
+      "tier": "5. Enslaved/manumitted",
+      "status": "endpoint",
+      "id": "Salihah bint Abdur Rahman"
+    },
+    {
+      "kind": "subject",
+      "tier": "5. Enslaved/manumitted",
+      "status": "endpoint",
+      "id": "Nasir bin Bilal"
+    },
+    {
+      "kind": "subject",
+      "tier": "5. Enslaved/manumitted",
+      "status": "endpoint",
+      "id": "Salim bin Ali"
+    },
+    {
+      "kind": "subject",
+      "tier": "5. Enslaved/manumitted",
+      "status": "endpoint",
+      "id": "Anbar"
+    },
+    {
+      "kind": "author",
+      "id": "Robert Hamilton (Political Agent, Kuwait)"
+    },
+    {
+      "kind": "subject",
+      "tier": "2. Gulf ruler",
+      "status": "endpoint",
+      "id": "Shaikh Salim"
+    },
+    {
+      "kind": "subject",
+      "tier": "comparator: intra-colonial dispute",
+      "status": "response",
+      "id": "Dr. Steele"
+    },
+    {
+      "kind": "author",
+      "id": "Gray, Mackenzie & Co. Ltd. (signed W. Cuntee, Manager)"
+    },
+    {
+      "kind": "subject",
+      "tier": "comparator: intra-colonial dispute",
+      "status": "response",
+      "id": "Gray, Mackenzie & Co."
+    },
+    {
+      "kind": "author",
+      "id": "M.L.A. Steele (Quarantine Medical Officer)"
+    },
+    {
+      "kind": "subject",
+      "tier": "3. European/British subject",
+      "status": "response",
+      "id": "Father Gabriel Fleming"
+    },
+    {
+      "kind": "author",
+      "id": "C.J. Pelly (Political Agent, Bahrain)"
+    },
+    {
+      "kind": "author",
+      "id": "E.M. Luidens, American Mission, Bahrain"
+    },
+    {
+      "kind": "subject",
+      "tier": "4a. BAPCO worker",
+      "status": "endpoint",
+      "id": "Mohammed bin Haji"
+    },
+    {
+      "kind": "author",
+      "id": "W.P. Anderson, Chief Local Representative, BAPCO"
+    },
+    {
+      "kind": "subject",
+      "tier": "4a. BAPCO worker",
+      "status": "endpoint",
+      "id": "Abdullah bin Nassir al Awadh"
+    },
+    {
+      "kind": "author",
+      "id": "Nassir bin Awadh"
+    },
+    {
+      "kind": "subject",
+      "tier": "4a. BAPCO worker",
+      "status": "endpoint",
+      "id": "Abbas bin Habib"
+    },
+    {
+      "kind": "author",
+      "id": "R.M. Brown, Chief Local Representative, BAPCO"
+    },
+    {
+      "kind": "subject",
+      "tier": "4a. BAPCO worker",
+      "status": "endpoint",
+      "id": "A. Rahim Ali Baz"
+    },
+    {
+      "kind": "author",
+      "id": "P.W. Harrison, M.D. (American Mission Hospital)"
+    },
+    {
+      "kind": "subject",
+      "tier": "4a. BAPCO worker",
+      "status": "endpoint",
+      "id": "Ali bin Ahmed"
+    },
+    {
+      "kind": "subject",
+      "tier": "4a. BAPCO worker",
+      "status": "endpoint",
+      "id": "Salim bin Saeed"
+    },
+    {
+      "kind": "author",
+      "id": "Superintendent, State Police, Bahrain (report) \u2014 forwarded by the Adviser to the Government"
+    },
+    {
+      "kind": "subject",
+      "tier": "4a. BAPCO worker",
+      "status": "endpoint",
+      "id": "Amer bin Saad"
+    },
+    {
+      "kind": "subject",
+      "tier": "4a. BAPCO worker",
+      "status": "endpoint",
+      "id": "Hassan bin Abdulla"
+    },
+    {
+      "kind": "subject",
+      "tier": "2. Gulf ruler (reverse case)",
+      "status": "narrated",
+      "id": "John Gordon Lorimer"
+    },
+    {
+      "kind": "author",
+      "id": "Major Arthur Prescott Trevor (Political Agent, Bahrain)"
+    }
+  ],
+  "edges": [
+    {
+      "kind": "concerns",
+      "doc": "116r",
+      "date": "26 January 1901",
+      "source": "W.S. Davis",
+      "target": "Queen Victoria",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "116v",
+      "date": "26 January 1901",
+      "source": "W.S. Davis",
+      "target": "Queen Victoria",
+      "key": 1
+    },
+    {
+      "kind": "concerns",
+      "doc": "46r",
+      "date": "March 1901",
+      "source": "W.S. Davis",
+      "target": "Queen Victoria",
+      "key": 2
+    },
+    {
+      "kind": "concerns",
+      "doc": "118r",
+      "date": "1 Feb 1901",
+      "source": "Secretary to Govt of India, Home Dept, Calcutta",
+      "target": "Queen Victoria",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "47r",
+      "date": "27 Aug 1900",
+      "source": "Cockburn (Offg. Political Resident)",
+      "target": "Shaikh Humeid bin Abdullah",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "47v",
+      "date": "27 Aug 1900",
+      "source": "Cockburn (Offg. Political Resident)",
+      "target": "Shaikh Humeid bin Abdullah",
+      "key": 1
+    },
+    {
+      "kind": "concerns",
+      "doc": "4r",
+      "date": "9 Dec 1932",
+      "source": "Percy Gordon Loch (Political Agency, Bahrain)",
+      "target": "Shaikh Isa",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "11r",
+      "date": "10 Dec 1932",
+      "source": "J. Croning for Secretary to the Political Resident (Camp, Bahrain)",
+      "target": "Shaikh Isa",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "5r",
+      "date": "9 Dec 1932",
+      "source": "Percy Gordon Loch (Political Agent, Bahrain)",
+      "target": "Shaikh Isa",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "10r",
+      "date": "10 Dec 1932",
+      "source": "Shaikh Hamad bin Isa Al Khalifah",
+      "target": "Shaikh Isa",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "60r",
+      "date": "16 Feb 1917",
+      "source": "Percy Zachariah Cox, Basrah",
+      "target": "Shaikh Jabir",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "7r",
+      "date": "26 March 1925",
+      "source": "Isa bin Abd al-Latif (Residency Agent, Sharjah)",
+      "target": "Almas of Suwahil",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "8r",
+      "date": "26 March 1925",
+      "source": "Isa bin Abd al-Latif (Residency Agent, Sharjah)",
+      "target": "Almas of Suwahil",
+      "key": 1
+    },
+    {
+      "kind": "concerns",
+      "doc": "10r",
+      "date": "26 March 1925",
+      "source": "Isa bin Abd al-Latif (Residency Agent, Sharjah)",
+      "target": "Almas of Suwahil",
+      "key": 2
+    },
+    {
+      "kind": "concerns",
+      "doc": "4r",
+      "date": "11 February 1948",
+      "source": "His Majesty's Consul at Baghdad",
+      "target": "Alwiyah bint Shabib",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "11r",
+      "date": "27 May 1948",
+      "source": "Fakhri al Tabaqchali, Mutasarrif Basra Liwa",
+      "target": "Mohammed Saleh al Bahraini",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "18r",
+      "date": "5 July 1949",
+      "source": "Mutasarrifiya of Kerbala Liwa",
+      "target": "Sadiga bint Haj Muhammad",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "54r",
+      "date": "26 June 1950",
+      "source": "British Consulate-General, Basra",
+      "target": "S'adiyah bint Sheber",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "61r",
+      "date": "17 October 1950",
+      "source": "British Consulate-General, Basra",
+      "target": "Haj Mahdi",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "32r",
+      "date": "10 June 1939",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Maryam bint Mabrook",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "33r",
+      "date": "10 June 1939",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Maryam bint Mabrook",
+      "key": 1
+    },
+    {
+      "kind": "concerns",
+      "doc": "34r",
+      "date": "10 June 1939",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Maryam bint Mabrook",
+      "key": 2
+    },
+    {
+      "kind": "concerns",
+      "doc": "38r",
+      "date": "14 July 1939",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Ghazul bint Suwahil",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "39r",
+      "date": "14 July 1939",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Ghazul bint Suwahil",
+      "key": 1
+    },
+    {
+      "kind": "concerns",
+      "doc": "40r",
+      "date": "17 July 1939",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Ghazul bint Suwahil",
+      "key": 2
+    },
+    {
+      "kind": "concerns",
+      "doc": "41r",
+      "date": "19 July 1939",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Ghazul bint Suwahil",
+      "key": 3
+    },
+    {
+      "kind": "concerns",
+      "doc": "42r",
+      "date": "7 August 1939",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Ghazul bint Suwahil",
+      "key": 4
+    },
+    {
+      "kind": "concerns",
+      "doc": "43r",
+      "date": "7 August 1939",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Ghazul bint Suwahil",
+      "key": 5
+    },
+    {
+      "kind": "concerns",
+      "doc": "44r",
+      "date": "7 August 1939",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Ghazul bint Suwahil",
+      "key": 6
+    },
+    {
+      "kind": "concerns",
+      "doc": "52v",
+      "date": "27 August 1939",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Salim bin Bial",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "97v",
+      "date": "13 Nov 1939",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Faraj bin Dadkhuda",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "152v",
+      "date": "22 March 1940",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Alya bint Firoz",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "68v",
+      "date": "2 October 1939",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Firoz bin Anbar",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "68v",
+      "date": "2 October 1939",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Zahra bint Ghuloom",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "72v",
+      "date": "26 April 1940",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Zahra bint Ghuloom",
+      "key": 1
+    },
+    {
+      "kind": "concerns",
+      "doc": "73v",
+      "date": "26 April 1940",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Zahra bint Ghuloom",
+      "key": 2
+    },
+    {
+      "kind": "concerns",
+      "doc": "74v",
+      "date": "13 May 1940",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Zahra bint Ghuloom",
+      "key": 3
+    },
+    {
+      "kind": "concerns",
+      "doc": "75v",
+      "date": "9 May 1940",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Zahra bint Ghuloom",
+      "key": 4
+    },
+    {
+      "kind": "concerns",
+      "doc": "76v",
+      "date": "2 Jun 1940",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Zahra bint Ghuloom",
+      "key": 5
+    },
+    {
+      "kind": "concerns",
+      "doc": "68v",
+      "date": "2 October 1939",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Salihah bint Abdur Rahman",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "74v",
+      "date": "13 May 1940",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Nasir bin Bilal",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "75v",
+      "date": "9 May 1940",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Nasir bin Bilal",
+      "key": 1
+    },
+    {
+      "kind": "concerns",
+      "doc": "76v",
+      "date": "2 Jun 1940",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Nasir bin Bilal",
+      "key": 2
+    },
+    {
+      "kind": "concerns",
+      "doc": "77v",
+      "date": "30 May 1940",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Nasir bin Bilal",
+      "key": 3
+    },
+    {
+      "kind": "concerns",
+      "doc": "79v",
+      "date": "~June 1940",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Nasir bin Bilal",
+      "key": 4
+    },
+    {
+      "kind": "concerns",
+      "doc": "119v",
+      "date": "15 July 1941",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Anbar",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "120v",
+      "date": "20 August 1941",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Anbar",
+      "key": 1
+    },
+    {
+      "kind": "concerns",
+      "doc": "121v",
+      "date": "20 August 1941",
+      "source": "Abd al-Razzaq Razuqi (Residency Agent, Sharjah)",
+      "target": "Anbar",
+      "key": 2
+    },
+    {
+      "kind": "concerns",
+      "doc": "35r",
+      "date": "10 June 1939",
+      "source": "Hugh Weightman (Political Agent, Bahrain)",
+      "target": "Maryam bint Mabrook",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "37r",
+      "date": "13 August 1939",
+      "source": "Political Agent, Bahrain",
+      "target": "Ghazul bint Suwahil",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "45r",
+      "date": "18 October 1939",
+      "source": "British Residency & Consulate-General, Bushire",
+      "target": "Ghazul bint Suwahil",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "back-i",
+      "date": "18 October 1939",
+      "source": "H.D. Rushton [signed, per earlier link table] \u2014 internal case review",
+      "target": "Ghazul bint Suwahil",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "21r",
+      "date": "20 July 1939",
+      "source": "Residency Agent, Sharjah",
+      "target": "Mubarak bin Bukhit",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "83v",
+      "date": "26 October 1939",
+      "source": "Residency Agent, Sharjah",
+      "target": "Sa'id bin Zayed",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "84v",
+      "date": "26 October 1939",
+      "source": "Residency Agent, Sharjah",
+      "target": "Sa'id bin Zayed",
+      "key": 1
+    },
+    {
+      "kind": "concerns",
+      "doc": "83v",
+      "date": "26 October 1939",
+      "source": "Residency Agent, Sharjah",
+      "target": "Almas bin Kamin",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "84v",
+      "date": "26 October 1939",
+      "source": "Residency Agent, Sharjah",
+      "target": "Almas bin Kamin",
+      "key": 1
+    },
+    {
+      "kind": "concerns",
+      "doc": "83v",
+      "date": "26 October 1939",
+      "source": "Residency Agent, Sharjah",
+      "target": "Thani bin Sa'ad",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "11r",
+      "date": "20 June 1939",
+      "source": "Residency Agent, Sharjah",
+      "target": "Mubarak bin Yaruh",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "11r",
+      "date": "20 June 1939",
+      "source": "Residency Agent, Sharjah",
+      "target": "Farhan bin Salmin",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "11r",
+      "date": "20 June 1939",
+      "source": "Residency Agent, Sharjah",
+      "target": "Marzuq bin Sanqur",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "11r",
+      "date": "20 June 1939",
+      "source": "Residency Agent, Sharjah",
+      "target": "Khazur bint Abdullah",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "12r",
+      "date": "22 June 1939",
+      "source": "Residency Agent, Sharjah",
+      "target": "Khazur bint Abdullah",
+      "key": 1
+    },
+    {
+      "kind": "concerns",
+      "doc": "12r",
+      "date": "22 June 1939",
+      "source": "Residency Agent, Sharjah",
+      "target": "Nafa'ah bint Sorur",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "78v",
+      "date": "",
+      "source": "Residency Agent, Sharjah",
+      "target": "Salim bin Ali",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "8r",
+      "date": "5 February 1917",
+      "source": "Robert Hamilton (Political Agent, Kuwait)",
+      "target": "Shaikh Jabir",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "9r",
+      "date": "5 February 1917",
+      "source": "Robert Hamilton (Political Agent, Kuwait)",
+      "target": "Shaikh Jabir",
+      "key": 1
+    },
+    {
+      "kind": "concerns",
+      "doc": "31r",
+      "date": "5 February 1917",
+      "source": "Robert Hamilton (Political Agent, Kuwait)",
+      "target": "Shaikh Jabir",
+      "key": 2
+    },
+    {
+      "kind": "concerns",
+      "doc": "32r",
+      "date": "5 Feb 1917",
+      "source": "Robert Hamilton (Political Agent, Kuwait)",
+      "target": "Shaikh Jabir",
+      "key": 3
+    },
+    {
+      "kind": "concerns",
+      "doc": "38r",
+      "date": "5 Feb 1917",
+      "source": "Robert Hamilton (Political Agent, Kuwait)",
+      "target": "Shaikh Jabir",
+      "key": 4
+    },
+    {
+      "kind": "concerns",
+      "doc": "8r",
+      "date": "5 February 1917",
+      "source": "Robert Hamilton (Political Agent, Kuwait)",
+      "target": "Shaikh Salim",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "9r",
+      "date": "5 February 1917",
+      "source": "Robert Hamilton (Political Agent, Kuwait)",
+      "target": "Shaikh Salim",
+      "key": 1
+    },
+    {
+      "kind": "concerns",
+      "doc": "31r",
+      "date": "5 Feb 1917",
+      "source": "Robert Hamilton (Political Agent, Kuwait)",
+      "target": "Shaikh Salim",
+      "key": 2
+    },
+    {
+      "kind": "concerns",
+      "doc": "32r",
+      "date": "5 Feb 1917",
+      "source": "Robert Hamilton (Political Agent, Kuwait)",
+      "target": "Shaikh Salim",
+      "key": 3
+    },
+    {
+      "kind": "concerns",
+      "doc": "38r",
+      "date": "5 Feb 1917",
+      "source": "Robert Hamilton (Political Agent, Kuwait)",
+      "target": "Shaikh Salim",
+      "key": 4
+    },
+    {
+      "kind": "concerns",
+      "doc": "145r",
+      "date": "27 Apr 1947",
+      "source": "Gray, Mackenzie & Co. Ltd. (signed W. Cuntee, Manager)",
+      "target": "Dr. Steele",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "145r",
+      "date": "27 Apr 1947",
+      "source": "Gray, Mackenzie & Co. Ltd. (signed W. Cuntee, Manager)",
+      "target": "Gray, Mackenzie & Co.",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "146r",
+      "date": "27 Apr 1947",
+      "source": "M.L.A. Steele (Quarantine Medical Officer)",
+      "target": "Dr. Steele",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "147r",
+      "date": "27 April 1947",
+      "source": "M.L.A. Steele (Quarantine Medical Officer)",
+      "target": "Dr. Steele",
+      "key": 1
+    },
+    {
+      "kind": "concerns",
+      "doc": "148r",
+      "date": "27 April 1947",
+      "source": "M.L.A. Steele (Quarantine Medical Officer)",
+      "target": "Dr. Steele",
+      "key": 2
+    },
+    {
+      "kind": "concerns",
+      "doc": "146r",
+      "date": "27 Apr 1947",
+      "source": "M.L.A. Steele (Quarantine Medical Officer)",
+      "target": "Gray, Mackenzie & Co.",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "147r",
+      "date": "27 April 1947",
+      "source": "M.L.A. Steele (Quarantine Medical Officer)",
+      "target": "Gray, Mackenzie & Co.",
+      "key": 1
+    },
+    {
+      "kind": "concerns",
+      "doc": "148r",
+      "date": "27 April 1947",
+      "source": "M.L.A. Steele (Quarantine Medical Officer)",
+      "target": "Gray, Mackenzie & Co.",
+      "key": 2
+    },
+    {
+      "kind": "concerns",
+      "doc": "8r",
+      "date": "29 June 1947",
+      "source": "C.J. Pelly (Political Agent, Bahrain)",
+      "target": "Father Gabriel Fleming",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "11r",
+      "date": "30 Jun 1947",
+      "source": "C.J. Pelly (Political Agent, Bahrain)",
+      "target": "Father Gabriel Fleming",
+      "key": 1
+    },
+    {
+      "kind": "concerns",
+      "doc": "23r",
+      "date": "27 July 1947",
+      "source": "C.J. Pelly (Political Agent, Bahrain)",
+      "target": "Father Gabriel Fleming",
+      "key": 2
+    },
+    {
+      "kind": "concerns",
+      "doc": "22r",
+      "date": "17 Jul 1947",
+      "source": "E.M. Luidens, American Mission, Bahrain",
+      "target": "Father Gabriel Fleming",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "1r",
+      "date": "4 September 1944",
+      "source": "W.P. Anderson, Chief Local Representative, BAPCO",
+      "target": "Mohammed bin Haji",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "13r",
+      "date": "11 January 1945",
+      "source": "W.P. Anderson, Chief Local Representative, BAPCO",
+      "target": "A. Rahim Ali Baz",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "14r",
+      "date": "11 Jan 1945",
+      "source": "W.P. Anderson, Chief Local Representative, BAPCO",
+      "target": "A. Rahim Ali Baz",
+      "key": 1
+    },
+    {
+      "kind": "concerns",
+      "doc": "15r",
+      "date": "11 Jan 1945",
+      "source": "W.P. Anderson, Chief Local Representative, BAPCO",
+      "target": "A. Rahim Ali Baz",
+      "key": 2
+    },
+    {
+      "kind": "concerns",
+      "doc": "17r",
+      "date": "11 Jan 1945",
+      "source": "W.P. Anderson, Chief Local Representative, BAPCO",
+      "target": "A. Rahim Ali Baz",
+      "key": 3
+    },
+    {
+      "kind": "concerns",
+      "doc": "19r",
+      "date": "28 Jan 1945",
+      "source": "W.P. Anderson, Chief Local Representative, BAPCO",
+      "target": "Ali bin Ahmed",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "27r",
+      "date": "4 February 1946",
+      "source": "Nassir bin Awadh",
+      "target": "Abdullah bin Nassir al Awadh",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "38r",
+      "date": "10 December 1946",
+      "source": "R.M. Brown, Chief Local Representative, BAPCO",
+      "target": "Abbas bin Habib",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "61r",
+      "date": "1 Jun 1947",
+      "source": "R.M. Brown, Chief Local Representative, BAPCO",
+      "target": "Amer bin Saad",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "65r",
+      "date": "1 Jun 1947",
+      "source": "R.M. Brown, Chief Local Representative, BAPCO",
+      "target": "Amer bin Saad",
+      "key": 1
+    },
+    {
+      "kind": "concerns",
+      "doc": "57r",
+      "date": "24 Mar 1947",
+      "source": "R.M. Brown, Chief Local Representative, BAPCO",
+      "target": "Hassan bin Abdulla",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "58r",
+      "date": "24 March 1947",
+      "source": "R.M. Brown, Chief Local Representative, BAPCO",
+      "target": "Hassan bin Abdulla",
+      "key": 1
+    },
+    {
+      "kind": "concerns",
+      "doc": "16r",
+      "date": "11 Jan 1945",
+      "source": "P.W. Harrison, M.D. (American Mission Hospital)",
+      "target": "A. Rahim Ali Baz",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "60r",
+      "date": "20 May / 2 June 1947",
+      "source": "Superintendent, State Police, Bahrain (report) \u2014 forwarded by the Adviser to the Government",
+      "target": "Salim bin Saeed",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "23r",
+      "date": "14 February 1914",
+      "source": "Major Arthur Prescott Trevor (Political Agent, Bahrain)",
+      "target": "John Gordon Lorimer",
+      "key": 0
+    },
+    {
+      "kind": "concerns",
+      "doc": "24r",
+      "date": "14 February 1914",
+      "source": "Major Arthur Prescott Trevor (Political Agent, Bahrain)",
+      "target": "John Gordon Lorimer",
+      "key": 1
+    }
+  ]
+}
